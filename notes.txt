@@ -1,0 +1,45 @@
+Default rustc configuration for bbv fire ubuntu instalation
+$ rustc --print cfg
+
+debug_assertions
+panic="unwind"
+target_arch="riscv64"
+target_endian="little"
+target_env="gnu"
+target_family="unix"
+target_has_atomic="16"
+target_has_atomic="32"
+target_has_atomic="64"
+target_has_atomic="8"
+target_has_atomic="ptr"
+target_os="linux"
+target_pointer_width="64"
+target_vendor="unknown"
+unix
+
+$ rustc --print target-cpus
+
+Available CPUs for this target:
+    native              - Select the CPU of the current host (currently generic).
+    generic            
+    generic-rv32       
+    generic-rv64       
+    rocket             
+    rocket-rv32        
+    rocket-rv64        
+    sifive-7-series    
+    sifive-e20         
+    sifive-e21         
+    sifive-e24         
+    sifive-e31         
+    sifive-e34         
+    sifive-e76         
+    sifive-s21         
+    sifive-s51         
+    sifive-s54         
+    sifive-s76         
+    sifive-u54         
+    sifive-u74         
+    syntacore-scr1-base
+    syntacore-scr1-max 
+
