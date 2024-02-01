@@ -1,0 +1,91 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC_PA, RAM1K20, RAM64X12, GLOBAL, IO
+. my_custom_cape, 3030, 2182, 725, 0, 0, 0, 0, 6, 169
+.	. BVF_RISCV_SUBSYSTEM, 2879, 2119, 702, 0, 0, 0, 0, 0, 96
+.	.	. APB_ARBITER_28s, 0, 34, 0, 0, 0, 0, 0, 0, 0
+.	.	. FIC3_INITIATOR, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. CoreAPB3_Z1, 0, 2, 0, 0, 0, 0, 0, 0, 0
+.	.	. IHC_SUBSYSTEM, 2879, 2078, 702, 0, 0, 0, 0, 0, 0
+.	.	.	. APB_ARBITER_12s, 0, 183, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. IHC_APB_0, 0, 21, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. CoreAPB3_Z2_1, 0, 21, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. COREAPB3_MUXPTOB3_1_1, 0, 16, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. IHC_APB_1, 0, 149, 190, 0, 0, 0, 0, 0, 0
+.	.	.	.	. CoreAPB3_Z2_0, 0, 149, 190, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. COREAPB3_MUXPTOB3_1_0, 0, 145, 190, 0, 0, 0, 0, 0, 0
+.	.	.	. MIV_IHCC_2s_1s_2s, 226, 129, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. miv_ihcc_ctrl_2s_1s_2s_1s_3s, 226, 125, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_irqs_3, 22, 13, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11, 64, 14, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_0, 64, 9, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. MIV_IHCC_2s_1s_3s, 226, 152, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. miv_ihcc_ctrl_2s_1s_3s_1s_3s, 226, 146, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_irqs_4, 22, 13, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_1, 64, 11, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_2, 64, 14, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. MIV_IHCC_2s_1s_4s, 226, 169, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. miv_ihcc_ctrl_2s_1s_4s_1s_3s, 226, 165, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_irqs_5, 22, 11, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_3, 64, 10, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_4, 64, 37, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. MIV_IHCC_2s_2s_3s, 226, 143, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. miv_ihcc_ctrl_2s_2s_3s_1s_3s, 226, 138, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_irqs_6, 22, 13, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_5, 64, 9, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_6, 64, 37, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. MIV_IHCC_2s_2s_4s, 226, 145, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. miv_ihcc_ctrl_2s_2s_4s_1s_3s, 226, 141, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_irqs_7, 22, 11, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_7, 64, 9, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_8, 64, 37, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. MIV_IHCC_2s_3s_4s, 226, 198, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. miv_ihcc_ctrl_2s_3s_4s_1s_3s, 226, 192, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_irqs_8, 22, 13, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_10, 64, 37, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_2s_IHC_SUBSYSTEM_11_9, 64, 37, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. MIV_IHCC_4s_0s_1s, 356, 148, 128, 0, 0, 0, 0, 0, 0
+.	.	.	.	. miv_ihcc_ctrl_4s_0s_1s_1s_3s, 356, 143, 128, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_irqs, 22, 16, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_4s_IHC_SUBSYSTEM_7, 128, 10, 64, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_4s_IHC_SUBSYSTEM_7_0, 128, 4, 64, 0, 0, 0, 0, 0, 0
+.	.	.	. MIV_IHCC_4s_0s_2s, 354, 140, 128, 0, 0, 0, 0, 0, 0
+.	.	.	.	. miv_ihcc_ctrl_4s_0s_2s_1s_3s, 354, 135, 128, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_irqs_0, 22, 17, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_4s_IHC_SUBSYSTEM_7_1, 128, 10, 64, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_4s_IHC_SUBSYSTEM_7_2, 128, 5, 64, 0, 0, 0, 0, 0, 0
+.	.	.	. MIV_IHCC_4s_0s_3s, 354, 141, 128, 0, 0, 0, 0, 0, 0
+.	.	.	.	. miv_ihcc_ctrl_4s_0s_3s_1s_3s, 354, 136, 128, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_irqs_1, 22, 17, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_4s_IHC_SUBSYSTEM_7_3, 128, 10, 64, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_4s_IHC_SUBSYSTEM_7_4, 128, 4, 64, 0, 0, 0, 0, 0, 0
+.	.	.	. MIV_IHCC_4s_0s_4s, 354, 213, 128, 0, 0, 0, 0, 0, 0
+.	.	.	.	. miv_ihcc_ctrl_4s_0s_4s_1s_3s, 354, 208, 128, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_irqs_2, 22, 16, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_4s_IHC_SUBSYSTEM_7_5, 128, 10, 64, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. miv_ihcc_mem_4s_IHC_SUBSYSTEM_7_6, 128, 4, 64, 0, 0, 0, 0, 0, 0
+.	.	.	. MIV_IHCIA_0, 21, 33, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. MIV_IHCIA_1, 21, 24, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. MIV_IHCIA_2, 21, 32, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. MIV_IHCIA_3, 21, 33, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. MIV_IHCIA_4, 21, 25, 0, 0, 0, 0, 0, 0, 0
+.	.	. PF_SOC_MSS, 0, 5, 0, 0, 0, 0, 0, 0, 94
+.	. CAPE, 119, 62, 23, 0, 0, 0, 0, 0, 65
+.	.	. P8_IOPADS, 0, 0, 0, 0, 0, 0, 0, 0, 44
+.	.	. P9_11_18_IOPADS, 0, 0, 0, 0, 0, 0, 0, 0, 8
+.	.	. P9_21_31_IOPADS, 0, 0, 0, 0, 0, 0, 0, 0, 11
+.	.	. P9_41_42_IOPADS, 0, 0, 0, 0, 0, 0, 0, 0, 2
+.	.	. apb_ctrl_status, 96, 61, 0, 0, 0, 0, 0, 0, 0
+.	.	. blinky, 23, 1, 23, 0, 0, 0, 0, 0, 0
+.	. CLOCKS_AND_RESETS, 32, 1, 0, 0, 0, 0, 0, 6, 0
+.	.	. CORERESET_0, 16, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. CORERESET_CORERESET_0_CORERESET_PF_3, 16, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. CORERESET_3, 16, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. CORERESET_CORERESET_0_CORERESET_PF_0, 16, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	. FPGA_CCC_C0, 0, 0, 0, 0, 0, 0, 0, 4, 0
+.	.	.	. FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC, 0, 0, 0, 0, 0, 0, 0, 4, 0
+.	.	. INIT_MONITOR, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. OSCILLATOR_160MHz, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	.	. OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. PF_CCC_ADC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	.	. PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC, 0, 0, 0, 0, 0, 0, 0, 1, 0

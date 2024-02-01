@@ -1,0 +1,702 @@
+Selecting top level module my_custom_cape
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":187:7:187:10|Synthesizing module AND4 in library work.
+Running optimization stage 1 on AND4 .......
+Finished optimization stage 1 on AND4 (CPU Time 0h:00m:00s, Memory Used current: 149MB peak: 149MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/apb_arbiter.v":43:7:43:17|Synthesizing module APB_ARBITER in library work.
+
+	select_bit=32'b00000000000000000000000000011100
+   Generated name = APB_ARBITER_28s
+Running optimization stage 1 on APB_ARBITER_28s .......
+Finished optimization stage 1 on APB_ARBITER_28s (CPU Time 0h:00m:00s, Memory Used current: 149MB peak: 149MB)
+@N: CG775 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":31:7:31:14|Component CoreAPB3 not found in library "work" or "__hyper__lib__", but found in library COREAPB3_LIB
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+Running optimization stage 1 on COREAPB3_MUXPTOB3 .......
+Finished optimization stage 1 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+
+	APB_DWIDTH=6'b100000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b0
+	APBSLOT1ENABLE=1'b1
+	APBSLOT2ENABLE=1'b1
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b1
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b1
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b1
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b011100
+	UPR_NIBBLE_POSN=4'b0110
+	FAMILY=32'b00000000000000000000000000011011
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IADDR_NOTINUSE=32'b00000000000000000000000000000000
+	IADDR_EXTERNAL=32'b00000000000000000000000000000001
+	IADDR_SLOT0=32'b00000000000000000000000000000010
+	IADDR_SLOT1=32'b00000000000000000000000000000011
+	IADDR_SLOT2=32'b00000000000000000000000000000100
+	IADDR_SLOT3=32'b00000000000000000000000000000101
+	IADDR_SLOT4=32'b00000000000000000000000000000110
+	IADDR_SLOT5=32'b00000000000000000000000000000111
+	IADDR_SLOT6=32'b00000000000000000000000000001000
+	IADDR_SLOT7=32'b00000000000000000000000000001001
+	IADDR_SLOT8=32'b00000000000000000000000000001010
+	IADDR_SLOT9=32'b00000000000000000000000000001011
+	IADDR_SLOT10=32'b00000000000000000000000000001100
+	IADDR_SLOT11=32'b00000000000000000000000000001101
+	IADDR_SLOT12=32'b00000000000000000000000000001110
+	IADDR_SLOT13=32'b00000000000000000000000000001111
+	IADDR_SLOT14=32'b00000000000000000000000000010000
+	IADDR_SLOT15=32'b00000000000000000000000000010001
+	SL0=16'b0000000000000000
+	SL1=16'b0000000000000010
+	SL2=16'b0000000000000100
+	SL3=16'b0000000000001000
+	SL4=16'b0000000000010000
+	SL5=16'b0000000000000000
+	SL6=16'b0000000000000000
+	SL7=16'b0000000000000000
+	SL8=16'b0000000100000000
+	SL9=16'b0000000000000000
+	SL10=16'b0000000000000000
+	SL11=16'b0000000000000000
+	SL12=16'b0000000000000000
+	SL13=16'b0000000000000000
+	SL14=16'b0000000000000000
+	SL15=16'b0000000000000000
+	SC=16'b0000000100001000
+	SC_qual=16'b0000000100001000
+   Generated name = CoreAPB3_Z1
+@W: CG360 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":244:12:244:20|Removing wire IA_PRDATA, as there is no assignment to it.
+Running optimization stage 1 on CoreAPB3_Z1 .......
+Finished optimization stage 1 on CoreAPB3_Z1 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/FIC3_INITIATOR/FIC3_INITIATOR.v":57:7:57:20|Synthesizing module FIC3_INITIATOR in library work.
+Running optimization stage 1 on FIC3_INITIATOR .......
+Finished optimization stage 1 on FIC3_INITIATOR (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":333:7:333:11|Synthesizing module BIBUF in library work.
+Running optimization stage 1 on BIBUF .......
+Finished optimization stage 1 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/apb_arbiter.v":43:7:43:17|Synthesizing module APB_ARBITER in library work.
+
+	select_bit=32'b00000000000000000000000000001100
+   Generated name = APB_ARBITER_12s
+Running optimization stage 1 on APB_ARBITER_12s .......
+Finished optimization stage 1 on APB_ARBITER_12s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_irqs.v":43:7:43:19|Synthesizing module miv_ihcc_irqs in library work.
+Running optimization stage 1 on miv_ihcc_irqs .......
+Finished optimization stage 1 on miv_ihcc_irqs (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_mem.v":43:7:43:18|Synthesizing module miv_ihcc_mem in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+   Generated name = miv_ihcc_mem_4s
+Running optimization stage 1 on miv_ihcc_mem_4s .......
+Finished optimization stage 1 on miv_ihcc_mem_4s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+	A_HART_ID=32'b00000000000000000000000000000000
+	B_HART_ID=32'b00000000000000000000000000000001
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_4s_0s_1s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_4s_0s_1s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_4s_0s_1s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+	A_HART_ID=32'b00000000000000000000000000000000
+	B_HART_ID=32'b00000000000000000000000000000001
+   Generated name = MIV_IHCC_4s_0s_1s
+Running optimization stage 1 on MIV_IHCC_4s_0s_1s .......
+Finished optimization stage 1 on MIV_IHCC_4s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+	A_HART_ID=32'b00000000000000000000000000000000
+	B_HART_ID=32'b00000000000000000000000000000010
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_4s_0s_2s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_4s_0s_2s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_4s_0s_2s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+	A_HART_ID=32'b00000000000000000000000000000000
+	B_HART_ID=32'b00000000000000000000000000000010
+   Generated name = MIV_IHCC_4s_0s_2s
+Running optimization stage 1 on MIV_IHCC_4s_0s_2s .......
+Finished optimization stage 1 on MIV_IHCC_4s_0s_2s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+	A_HART_ID=32'b00000000000000000000000000000000
+	B_HART_ID=32'b00000000000000000000000000000011
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_4s_0s_3s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_4s_0s_3s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_4s_0s_3s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+	A_HART_ID=32'b00000000000000000000000000000000
+	B_HART_ID=32'b00000000000000000000000000000011
+   Generated name = MIV_IHCC_4s_0s_3s
+Running optimization stage 1 on MIV_IHCC_4s_0s_3s .......
+Finished optimization stage 1 on MIV_IHCC_4s_0s_3s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+	A_HART_ID=32'b00000000000000000000000000000000
+	B_HART_ID=32'b00000000000000000000000000000100
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_4s_0s_4s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_4s_0s_4s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_4s_0s_4s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+	A_HART_ID=32'b00000000000000000000000000000000
+	B_HART_ID=32'b00000000000000000000000000000100
+   Generated name = MIV_IHCC_4s_0s_4s
+Running optimization stage 1 on MIV_IHCC_4s_0s_4s .......
+Finished optimization stage 1 on MIV_IHCC_4s_0s_4s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_mem.v":43:7:43:18|Synthesizing module miv_ihcc_mem in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+   Generated name = miv_ihcc_mem_2s
+Running optimization stage 1 on miv_ihcc_mem_2s .......
+Finished optimization stage 1 on miv_ihcc_mem_2s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000001
+	B_HART_ID=32'b00000000000000000000000000000010
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_2s_1s_2s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_2s_1s_2s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_2s_1s_2s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000001
+	B_HART_ID=32'b00000000000000000000000000000010
+   Generated name = MIV_IHCC_2s_1s_2s
+Running optimization stage 1 on MIV_IHCC_2s_1s_2s .......
+Finished optimization stage 1 on MIV_IHCC_2s_1s_2s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000001
+	B_HART_ID=32'b00000000000000000000000000000011
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_2s_1s_3s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_2s_1s_3s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_2s_1s_3s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000001
+	B_HART_ID=32'b00000000000000000000000000000011
+   Generated name = MIV_IHCC_2s_1s_3s
+Running optimization stage 1 on MIV_IHCC_2s_1s_3s .......
+Finished optimization stage 1 on MIV_IHCC_2s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000001
+	B_HART_ID=32'b00000000000000000000000000000100
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_2s_1s_4s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_2s_1s_4s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_2s_1s_4s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000001
+	B_HART_ID=32'b00000000000000000000000000000100
+   Generated name = MIV_IHCC_2s_1s_4s
+Running optimization stage 1 on MIV_IHCC_2s_1s_4s .......
+Finished optimization stage 1 on MIV_IHCC_2s_1s_4s (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000010
+	B_HART_ID=32'b00000000000000000000000000000011
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_2s_2s_3s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_2s_2s_3s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_2s_2s_3s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000010
+	B_HART_ID=32'b00000000000000000000000000000011
+   Generated name = MIV_IHCC_2s_2s_3s
+Running optimization stage 1 on MIV_IHCC_2s_2s_3s .......
+Finished optimization stage 1 on MIV_IHCC_2s_2s_3s (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000010
+	B_HART_ID=32'b00000000000000000000000000000100
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_2s_2s_4s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_2s_2s_4s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_2s_2s_4s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000010
+	B_HART_ID=32'b00000000000000000000000000000100
+   Generated name = MIV_IHCC_2s_2s_4s
+Running optimization stage 1 on MIV_IHCC_2s_2s_4s .......
+Finished optimization stage 1 on MIV_IHCC_2s_2s_4s (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000011
+	B_HART_ID=32'b00000000000000000000000000000100
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_2s_3s_4s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_2s_3s_4s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_2s_3s_4s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000011
+	B_HART_ID=32'b00000000000000000000000000000100
+   Generated name = MIV_IHCC_2s_3s_4s
+Running optimization stage 1 on MIV_IHCC_2s_3s_4s .......
+Finished optimization stage 1 on MIV_IHCC_2s_3s_4s (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcia.v":43:7:43:15|Synthesizing module MIV_IHCIA in library work.
+Running optimization stage 1 on MIV_IHCIA .......
+Finished optimization stage 1 on MIV_IHCIA (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 155MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+
+	APB_DWIDTH=6'b100000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b1
+	APBSLOT2ENABLE=1'b1
+	APBSLOT3ENABLE=1'b1
+	APBSLOT4ENABLE=1'b1
+	APBSLOT5ENABLE=1'b1
+	APBSLOT6ENABLE=1'b1
+	APBSLOT7ENABLE=1'b1
+	APBSLOT8ENABLE=1'b1
+	APBSLOT9ENABLE=1'b1
+	APBSLOT10ENABLE=1'b1
+	APBSLOT11ENABLE=1'b1
+	APBSLOT12ENABLE=1'b1
+	APBSLOT13ENABLE=1'b1
+	APBSLOT14ENABLE=1'b1
+	APBSLOT15ENABLE=1'b1
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b001100
+	UPR_NIBBLE_POSN=4'b0110
+	FAMILY=32'b00000000000000000000000000011011
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IADDR_NOTINUSE=32'b00000000000000000000000000000000
+	IADDR_EXTERNAL=32'b00000000000000000000000000000001
+	IADDR_SLOT0=32'b00000000000000000000000000000010
+	IADDR_SLOT1=32'b00000000000000000000000000000011
+	IADDR_SLOT2=32'b00000000000000000000000000000100
+	IADDR_SLOT3=32'b00000000000000000000000000000101
+	IADDR_SLOT4=32'b00000000000000000000000000000110
+	IADDR_SLOT5=32'b00000000000000000000000000000111
+	IADDR_SLOT6=32'b00000000000000000000000000001000
+	IADDR_SLOT7=32'b00000000000000000000000000001001
+	IADDR_SLOT8=32'b00000000000000000000000000001010
+	IADDR_SLOT9=32'b00000000000000000000000000001011
+	IADDR_SLOT10=32'b00000000000000000000000000001100
+	IADDR_SLOT11=32'b00000000000000000000000000001101
+	IADDR_SLOT12=32'b00000000000000000000000000001110
+	IADDR_SLOT13=32'b00000000000000000000000000001111
+	IADDR_SLOT14=32'b00000000000000000000000000010000
+	IADDR_SLOT15=32'b00000000000000000000000000010001
+	SL0=16'b0000000000000001
+	SL1=16'b0000000000000010
+	SL2=16'b0000000000000100
+	SL3=16'b0000000000001000
+	SL4=16'b0000000000010000
+	SL5=16'b0000000000100000
+	SL6=16'b0000000001000000
+	SL7=16'b0000000010000000
+	SL8=16'b0000000100000000
+	SL9=16'b0000001000000000
+	SL10=16'b0000010000000000
+	SL11=16'b0000100000000000
+	SL12=16'b0001000000000000
+	SL13=16'b0010000000000000
+	SL14=16'b0100000000000000
+	SL15=16'b1000000000000000
+	SC=16'b0000000000000000
+	SC_qual=16'b0000000000000000
+   Generated name = CoreAPB3_Z2
+Running optimization stage 1 on CoreAPB3_Z2 .......
+Finished optimization stage 1 on CoreAPB3_Z2 (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 155MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/IHC_APB/IHC_APB.v":57:7:57:13|Synthesizing module IHC_APB in library work.
+Running optimization stage 1 on IHC_APB .......
+Finished optimization stage 1 on IHC_APB (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 155MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/IHC_SUBSYSTEM/IHC_SUBSYSTEM.v":9:7:9:19|Synthesizing module IHC_SUBSYSTEM in library work.
+Running optimization stage 1 on IHC_SUBSYSTEM .......
+Finished optimization stage 1 on IHC_SUBSYSTEM (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 155MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":287:7:287:12|Synthesizing module OUTBUF in library work.
+Running optimization stage 1 on OUTBUF .......
+Finished optimization stage 1 on OUTBUF (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":264:7:264:11|Synthesizing module INBUF in library work.
+Running optimization stage 1 on INBUF .......
+Finished optimization stage 1 on INBUF (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":223:7:223:9|Synthesizing module INV in library work.
+Running optimization stage 1 on INV .......
+Finished optimization stage 1 on INV (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":357:7:357:16|Synthesizing module INBUF_DIFF in library work.
+Running optimization stage 1 on INBUF_DIFF .......
+Finished optimization stage 1 on INBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":403:7:403:17|Synthesizing module OUTBUF_DIFF in library work.
+Running optimization stage 1 on OUTBUF_DIFF .......
+Finished optimization stage 1 on OUTBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":449:7:449:16|Synthesizing module BIBUF_DIFF in library work.
+Running optimization stage 1 on BIBUF_DIFF .......
+Finished optimization stage 1 on BIBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+Running optimization stage 1 on VCC .......
+Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":500:7:500:9|Synthesizing module GND in library work.
+Running optimization stage 1 on GND .......
+Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_SOC_MSS/MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v":5:7:5:9|Synthesizing module MSS in library work.
+Running optimization stage 1 on MSS .......
+Finished optimization stage 1 on MSS (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_SOC_MSS/PF_SOC_MSS.v":5:7:5:16|Synthesizing module PF_SOC_MSS in library work.
+Running optimization stage 1 on PF_SOC_MSS .......
+Finished optimization stage 1 on PF_SOC_MSS (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/BVF_RISCV_SUBSYSTEM/BVF_RISCV_SUBSYSTEM.v":9:7:9:25|Synthesizing module BVF_RISCV_SUBSYSTEM in library work.
+Running optimization stage 1 on BVF_RISCV_SUBSYSTEM .......
+Finished optimization stage 1 on BVF_RISCV_SUBSYSTEM (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/apb_ctrl_status.v":2:7:2:21|Synthesizing module apb_ctrl_status in library work.
+Running optimization stage 1 on apb_ctrl_status .......
+Finished optimization stage 1 on apb_ctrl_status (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/P8_IOPADS.v":9:7:9:15|Synthesizing module P8_IOPADS in library work.
+Running optimization stage 1 on P8_IOPADS .......
+Finished optimization stage 1 on P8_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/P9_11_18_IOPADS.v":9:7:9:21|Synthesizing module P9_11_18_IOPADS in library work.
+Running optimization stage 1 on P9_11_18_IOPADS .......
+Finished optimization stage 1 on P9_11_18_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/P9_21_31_IOPADS.v":9:7:9:21|Synthesizing module P9_21_31_IOPADS in library work.
+Running optimization stage 1 on P9_21_31_IOPADS .......
+Finished optimization stage 1 on P9_21_31_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/P9_41_42_IOPADS.v":9:7:9:21|Synthesizing module P9_41_42_IOPADS in library work.
+Running optimization stage 1 on P9_41_42_IOPADS .......
+Finished optimization stage 1 on P9_41_42_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/my_logic.v":2:7:2:12|Synthesizing module blinky in library work.
+Running optimization stage 1 on blinky .......
+Finished optimization stage 1 on blinky (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/CAPE.v":9:7:9:10|Synthesizing module CAPE in library work.
+Running optimization stage 1 on CAPE .......
+Finished optimization stage 1 on CAPE (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CORERESET/CORERESET_0/core/corereset_pf.v":21:7:21:40|Synthesizing module CORERESET_CORERESET_0_CORERESET_PF in library work.
+Running optimization stage 1 on CORERESET_CORERESET_0_CORERESET_PF .......
+Finished optimization stage 1 on CORERESET_CORERESET_0_CORERESET_PF (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CORERESET/CORERESET.v":21:7:21:15|Synthesizing module CORERESET in library work.
+Running optimization stage 1 on CORERESET .......
+Finished optimization stage 1 on CORERESET (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":121:7:121:10|Synthesizing module AND2 in library work.
+Running optimization stage 1 on AND2 .......
+Finished optimization stage 1 on AND2 (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":489:7:489:12|Synthesizing module CLKINT in library work.
+Running optimization stage 1 on CLKINT .......
+Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@W: CG168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/FPGA_CCC_C0/FPGA_CCC_C0_0/FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC.v":47:27:47:36|Type of parameter VCOFREQUENCY on the instance pll_inst_0 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":3694:7:3694:9|Synthesizing module PLL in library work.
+Running optimization stage 1 on PLL .......
+Finished optimization stage 1 on PLL (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/FPGA_CCC_C0/FPGA_CCC_C0_0/FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC.v":5:7:5:38|Synthesizing module FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC in library work.
+Running optimization stage 1 on FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC .......
+Finished optimization stage 1 on FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/FPGA_CCC_C0/FPGA_CCC_C0.v":264:7:264:17|Synthesizing module FPGA_CCC_C0 in library work.
+Running optimization stage 1 on FPGA_CCC_C0 .......
+Finished optimization stage 1 on FPGA_CCC_C0 (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@W: CG168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter FABRIC_POR_N_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter PCIE_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter SRAM_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter UIC_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter USRAM_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1702:7:1702:10|Synthesizing module INIT in library work.
+Running optimization stage 1 on INIT .......
+Finished optimization stage 1 on INIT (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":5:7:5:52|Synthesizing module INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR in library work.
+Running optimization stage 1 on INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR .......
+@W: CL168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":48:8:48:15|Removing instance gnd_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":47:8:47:15|Removing instance vcc_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+Finished optimization stage 1 on INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR.v":71:7:71:18|Synthesizing module INIT_MONITOR in library work.
+Running optimization stage 1 on INIT_MONITOR .......
+Finished optimization stage 1 on INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":2199:7:2199:18|Synthesizing module OSC_RC160MHZ in library work.
+Running optimization stage 1 on OSC_RC160MHZ .......
+Finished optimization stage 1 on OSC_RC160MHZ (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v":5:7:5:50|Synthesizing module OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC in library work.
+Running optimization stage 1 on OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC .......
+@W: CL168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v":17:8:17:15|Removing instance gnd_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+Finished optimization stage 1 on OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz.v":27:7:27:23|Synthesizing module OSCILLATOR_160MHz in library work.
+Running optimization stage 1 on OSCILLATOR_160MHz .......
+Finished optimization stage 1 on OSCILLATOR_160MHz (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_CCC_ADC/PF_CCC_ADC_0/PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC.v":5:7:5:36|Synthesizing module PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC in library work.
+Running optimization stage 1 on PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC .......
+Finished optimization stage 1 on PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_CCC_ADC/PF_CCC_ADC.v":264:7:264:16|Synthesizing module PF_CCC_ADC in library work.
+Running optimization stage 1 on PF_CCC_ADC .......
+Finished optimization stage 1 on PF_CCC_ADC (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v":9:7:9:23|Synthesizing module CLOCKS_AND_RESETS in library work.
+Running optimization stage 1 on CLOCKS_AND_RESETS .......
+Finished optimization stage 1 on CLOCKS_AND_RESETS (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/my_custom_cape/my_custom_cape.v":9:7:9:20|Synthesizing module my_custom_cape in library work.
+Running optimization stage 1 on my_custom_cape .......
+Finished optimization stage 1 on my_custom_cape (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on my_custom_cape .......
+Finished optimization stage 2 on my_custom_cape (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on CLOCKS_AND_RESETS .......
+Finished optimization stage 2 on CLOCKS_AND_RESETS (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on PF_CCC_ADC .......
+Finished optimization stage 2 on PF_CCC_ADC (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC .......
+Finished optimization stage 2 on PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on OSCILLATOR_160MHz .......
+Finished optimization stage 2 on OSCILLATOR_160MHz (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC .......
+Finished optimization stage 2 on OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on OSC_RC160MHZ .......
+Finished optimization stage 2 on OSC_RC160MHZ (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on INIT_MONITOR .......
+Finished optimization stage 2 on INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR .......
+Finished optimization stage 2 on INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on INIT .......
+Finished optimization stage 2 on INIT (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on FPGA_CCC_C0 .......
+Finished optimization stage 2 on FPGA_CCC_C0 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC .......
+Finished optimization stage 2 on FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on PLL .......
+Finished optimization stage 2 on PLL (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on CLKINT .......
+Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on AND2 .......
+Finished optimization stage 2 on AND2 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on CORERESET .......
+Finished optimization stage 2 on CORERESET (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on CORERESET_CORERESET_0_CORERESET_PF .......
+@N: CL135 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CORERESET/CORERESET_0/core/corereset_pf.v":58:0:58:5|Found sequential shift dff with address depth of 16 words and data bit width of 1.
+Finished optimization stage 2 on CORERESET_CORERESET_0_CORERESET_PF (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on CAPE .......
+@W: CL246 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/CAPE.v":95:14:95:34|Input port bits 31 to 8 of APB_SLAVE_SLAVE_PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/CAPE.v":100:14:100:20|Input port bit 5 of GPIO_OE[27:0] is unused
+
+@W: CL247 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/CAPE.v":101:14:101:21|Input port bit 5 of GPIO_OUT[27:0] is unused
+
+Finished optimization stage 2 on CAPE (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on blinky .......
+Finished optimization stage 2 on blinky (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on P9_41_42_IOPADS .......
+Finished optimization stage 2 on P9_41_42_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on P9_21_31_IOPADS .......
+Finished optimization stage 2 on P9_21_31_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on P9_11_18_IOPADS .......
+Finished optimization stage 2 on P9_11_18_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on P8_IOPADS .......
+Finished optimization stage 2 on P8_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on apb_ctrl_status .......
+Finished optimization stage 2 on apb_ctrl_status (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on BVF_RISCV_SUBSYSTEM .......
+Finished optimization stage 2 on BVF_RISCV_SUBSYSTEM (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on PF_SOC_MSS .......
+Finished optimization stage 2 on PF_SOC_MSS (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MSS .......
+Finished optimization stage 2 on MSS (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on GND .......
+Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on VCC .......
+Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on BIBUF_DIFF .......
+Finished optimization stage 2 on BIBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on OUTBUF_DIFF .......
+Finished optimization stage 2 on OUTBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on INBUF_DIFF .......
+Finished optimization stage 2 on INBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on INV .......
+Finished optimization stage 2 on INV (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on INBUF .......
+Finished optimization stage 2 on INBUF (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on OUTBUF .......
+Finished optimization stage 2 on OUTBUF (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on IHC_SUBSYSTEM .......
+Finished optimization stage 2 on IHC_SUBSYSTEM (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on IHC_APB .......
+Finished optimization stage 2 on IHC_APB (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on CoreAPB3_Z2 .......
+@W: CL246 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":75:18:75:22|Input port bits 27 to 12 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":74:13:74:16|Input PCLK is unused.
+Finished optimization stage 2 on CoreAPB3_Z2 (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCIA .......
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcia.v":46:28:46:34|Input penable is unused.
+Finished optimization stage 2 on MIV_IHCIA (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_2s_3s_4s .......
+Finished optimization stage 2 on MIV_IHCC_2s_3s_4s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_2s_3s_4s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_2s_3s_4s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_2s_2s_4s .......
+Finished optimization stage 2 on MIV_IHCC_2s_2s_4s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_2s_2s_4s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_2s_2s_4s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_2s_2s_3s .......
+Finished optimization stage 2 on MIV_IHCC_2s_2s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_2s_2s_3s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_2s_2s_3s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_2s_1s_4s .......
+Finished optimization stage 2 on MIV_IHCC_2s_1s_4s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_2s_1s_4s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_2s_1s_4s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_2s_1s_3s .......
+Finished optimization stage 2 on MIV_IHCC_2s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_2s_1s_3s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_2s_1s_3s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_2s_1s_2s .......
+Finished optimization stage 2 on MIV_IHCC_2s_1s_2s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_2s_1s_2s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_2s_1s_2s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_mem_2s .......
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_mem.v":45:32:45:37|Input resetn is unused.
+Finished optimization stage 2 on miv_ihcc_mem_2s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_4s_0s_4s .......
+Finished optimization stage 2 on MIV_IHCC_4s_0s_4s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_4s_0s_4s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_4s_0s_4s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_4s_0s_3s .......
+Finished optimization stage 2 on MIV_IHCC_4s_0s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_4s_0s_3s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_4s_0s_3s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_4s_0s_2s .......
+Finished optimization stage 2 on MIV_IHCC_4s_0s_2s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_4s_0s_2s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_4s_0s_2s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_4s_0s_1s .......
+Finished optimization stage 2 on MIV_IHCC_4s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_4s_0s_1s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_4s_0s_1s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_mem_4s .......
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_mem.v":45:32:45:37|Input resetn is unused.
+Finished optimization stage 2 on miv_ihcc_mem_4s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_irqs .......
+Finished optimization stage 2 on miv_ihcc_irqs (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on APB_ARBITER_12s .......
+Finished optimization stage 2 on APB_ARBITER_12s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on BIBUF .......
+Finished optimization stage 2 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on FIC3_INITIATOR .......
+Finished optimization stage 2 on FIC3_INITIATOR (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on CoreAPB3_Z1 .......
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":104:18:104:25|Input PRDATAS0 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":107:18:107:25|Input PRDATAS3 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":121:13:121:20|Input PREADYS0 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":124:13:124:20|Input PREADYS3 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":138:13:138:21|Input PSLVERRS0 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":141:13:141:21|Input PSLVERRS3 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":143:13:143:21|Input PSLVERRS5 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
+Finished optimization stage 2 on CoreAPB3_Z1 (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on COREAPB3_MUXPTOB3 .......
+Finished optimization stage 2 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on APB_ARBITER_28s .......
+Finished optimization stage 2 on APB_ARBITER_28s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on AND4 .......
+Finished optimization stage 2 on AND4 (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/synwork/layer0.duruntime
+
+

@@ -1,0 +1,1906 @@
+#Build: Synplify Pro (R) T-2022.09M-SP2-1, Build 179R, Jun 27 2023
+#install: /home/aven/microchip/SynplifyPro
+#OS: Linux 
+#Hostname: aven-22-04
+
+# Wed Jan 31 17:00:47 2024
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: /home/aven/microchip/SynplifyPro
+OS: Ubuntu 22.04.3 LTS
+Hostname: aven-22-04
+max virtual memory: unlimited (bytes)
+max user processes: 255136
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:53, @4799148
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: /home/aven/microchip/SynplifyPro
+OS: Ubuntu 22.04.3 LTS
+Hostname: aven-22-04
+max virtual memory: unlimited (bytes)
+max user processes: 255136
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:53, @4799148
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v" (library work)
+@I::"/home/aven/microchip/SynplifyPro/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/aven/microchip/SynplifyPro/lib/vlog/umr_capim.v" (library snps_haps)
+@I::"/home/aven/microchip/SynplifyPro/lib/vlog/scemi_objects.v" (library snps_haps)
+@I::"/home/aven/microchip/SynplifyPro/lib/vlog/scemi_pipes.svh" (library snps_haps)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v" (library work)
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":4065:13:4065:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":4096:13:4096:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":4142:13:4142:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":4253:13:4253:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":4437:13:4437:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":4478:13:4478:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":4504:13:4504:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":4521:13:4521:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":4598:13:4598:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":5362:13:5362:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":6172:13:6172:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":6281:13:6281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":6319:13:6319:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":6392:13:6392:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":7281:13:7281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":8338:13:8338:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":9297:13:9297:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":10033:13:10033:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":10748:13:10748:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":10782:13:10782:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":10818:13:10818:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":10865:13:10865:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":10899:13:10899:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":11765:13:11765:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":12808:13:12808:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":12820:15:12820:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":12831:13:12831:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":12844:13:12844:25|User defined pragma syn_black_box detected
+
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/apb_arbiter.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v" (library COREAPB3_LIB)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v" (library COREAPB3_LIB)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/FIC3_INITIATOR/FIC3_INITIATOR.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/IHC_APB/IHC_APB.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcia.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_mem.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_irqs.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/IHC_SUBSYSTEM/IHC_SUBSYSTEM.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_SOC_MSS/MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v" (library work)
+@W: CG100 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_SOC_MSS/MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_SOC_MSS/PF_SOC_MSS.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/BVF_RISCV_SUBSYSTEM/BVF_RISCV_SUBSYSTEM.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/P8_IOPADS.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/P9_11_18_IOPADS.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/P9_21_31_IOPADS.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/P9_41_42_IOPADS.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/apb_ctrl_status.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/my_logic.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/CAPE.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CORERESET/CORERESET_0/core/corereset_pf.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CORERESET/CORERESET.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/FPGA_CCC_C0/FPGA_CCC_C0_0/FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/FPGA_CCC_C0/FPGA_CCC_C0.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_CCC_ADC/PF_CCC_ADC_0/PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_CCC_ADC/PF_CCC_ADC.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v" (library work)
+@I::"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/my_custom_cape/my_custom_cape.v" (library work)
+@N|stack limit increased to max
+Verilog syntax check successful!
+Selecting top level module my_custom_cape
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":187:7:187:10|Synthesizing module AND4 in library work.
+Running optimization stage 1 on AND4 .......
+Finished optimization stage 1 on AND4 (CPU Time 0h:00m:00s, Memory Used current: 149MB peak: 149MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/apb_arbiter.v":43:7:43:17|Synthesizing module APB_ARBITER in library work.
+
+	select_bit=32'b00000000000000000000000000011100
+   Generated name = APB_ARBITER_28s
+Running optimization stage 1 on APB_ARBITER_28s .......
+Finished optimization stage 1 on APB_ARBITER_28s (CPU Time 0h:00m:00s, Memory Used current: 149MB peak: 149MB)
+@N: CG775 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":31:7:31:14|Component CoreAPB3 not found in library "work" or "__hyper__lib__", but found in library COREAPB3_LIB
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+Running optimization stage 1 on COREAPB3_MUXPTOB3 .......
+Finished optimization stage 1 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+
+	APB_DWIDTH=6'b100000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b0
+	APBSLOT1ENABLE=1'b1
+	APBSLOT2ENABLE=1'b1
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b1
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b1
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b1
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b011100
+	UPR_NIBBLE_POSN=4'b0110
+	FAMILY=32'b00000000000000000000000000011011
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IADDR_NOTINUSE=32'b00000000000000000000000000000000
+	IADDR_EXTERNAL=32'b00000000000000000000000000000001
+	IADDR_SLOT0=32'b00000000000000000000000000000010
+	IADDR_SLOT1=32'b00000000000000000000000000000011
+	IADDR_SLOT2=32'b00000000000000000000000000000100
+	IADDR_SLOT3=32'b00000000000000000000000000000101
+	IADDR_SLOT4=32'b00000000000000000000000000000110
+	IADDR_SLOT5=32'b00000000000000000000000000000111
+	IADDR_SLOT6=32'b00000000000000000000000000001000
+	IADDR_SLOT7=32'b00000000000000000000000000001001
+	IADDR_SLOT8=32'b00000000000000000000000000001010
+	IADDR_SLOT9=32'b00000000000000000000000000001011
+	IADDR_SLOT10=32'b00000000000000000000000000001100
+	IADDR_SLOT11=32'b00000000000000000000000000001101
+	IADDR_SLOT12=32'b00000000000000000000000000001110
+	IADDR_SLOT13=32'b00000000000000000000000000001111
+	IADDR_SLOT14=32'b00000000000000000000000000010000
+	IADDR_SLOT15=32'b00000000000000000000000000010001
+	SL0=16'b0000000000000000
+	SL1=16'b0000000000000010
+	SL2=16'b0000000000000100
+	SL3=16'b0000000000001000
+	SL4=16'b0000000000010000
+	SL5=16'b0000000000000000
+	SL6=16'b0000000000000000
+	SL7=16'b0000000000000000
+	SL8=16'b0000000100000000
+	SL9=16'b0000000000000000
+	SL10=16'b0000000000000000
+	SL11=16'b0000000000000000
+	SL12=16'b0000000000000000
+	SL13=16'b0000000000000000
+	SL14=16'b0000000000000000
+	SL15=16'b0000000000000000
+	SC=16'b0000000100001000
+	SC_qual=16'b0000000100001000
+   Generated name = CoreAPB3_Z1
+@W: CG360 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":244:12:244:20|Removing wire IA_PRDATA, as there is no assignment to it.
+Running optimization stage 1 on CoreAPB3_Z1 .......
+Finished optimization stage 1 on CoreAPB3_Z1 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/FIC3_INITIATOR/FIC3_INITIATOR.v":57:7:57:20|Synthesizing module FIC3_INITIATOR in library work.
+Running optimization stage 1 on FIC3_INITIATOR .......
+Finished optimization stage 1 on FIC3_INITIATOR (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":333:7:333:11|Synthesizing module BIBUF in library work.
+Running optimization stage 1 on BIBUF .......
+Finished optimization stage 1 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/apb_arbiter.v":43:7:43:17|Synthesizing module APB_ARBITER in library work.
+
+	select_bit=32'b00000000000000000000000000001100
+   Generated name = APB_ARBITER_12s
+Running optimization stage 1 on APB_ARBITER_12s .......
+Finished optimization stage 1 on APB_ARBITER_12s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_irqs.v":43:7:43:19|Synthesizing module miv_ihcc_irqs in library work.
+Running optimization stage 1 on miv_ihcc_irqs .......
+Finished optimization stage 1 on miv_ihcc_irqs (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_mem.v":43:7:43:18|Synthesizing module miv_ihcc_mem in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+   Generated name = miv_ihcc_mem_4s
+Running optimization stage 1 on miv_ihcc_mem_4s .......
+Finished optimization stage 1 on miv_ihcc_mem_4s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+	A_HART_ID=32'b00000000000000000000000000000000
+	B_HART_ID=32'b00000000000000000000000000000001
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_4s_0s_1s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_4s_0s_1s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_4s_0s_1s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+	A_HART_ID=32'b00000000000000000000000000000000
+	B_HART_ID=32'b00000000000000000000000000000001
+   Generated name = MIV_IHCC_4s_0s_1s
+Running optimization stage 1 on MIV_IHCC_4s_0s_1s .......
+Finished optimization stage 1 on MIV_IHCC_4s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 152MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+	A_HART_ID=32'b00000000000000000000000000000000
+	B_HART_ID=32'b00000000000000000000000000000010
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_4s_0s_2s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_4s_0s_2s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_4s_0s_2s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+	A_HART_ID=32'b00000000000000000000000000000000
+	B_HART_ID=32'b00000000000000000000000000000010
+   Generated name = MIV_IHCC_4s_0s_2s
+Running optimization stage 1 on MIV_IHCC_4s_0s_2s .......
+Finished optimization stage 1 on MIV_IHCC_4s_0s_2s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+	A_HART_ID=32'b00000000000000000000000000000000
+	B_HART_ID=32'b00000000000000000000000000000011
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_4s_0s_3s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_4s_0s_3s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_4s_0s_3s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+	A_HART_ID=32'b00000000000000000000000000000000
+	B_HART_ID=32'b00000000000000000000000000000011
+   Generated name = MIV_IHCC_4s_0s_3s
+Running optimization stage 1 on MIV_IHCC_4s_0s_3s .......
+Finished optimization stage 1 on MIV_IHCC_4s_0s_3s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+	A_HART_ID=32'b00000000000000000000000000000000
+	B_HART_ID=32'b00000000000000000000000000000100
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_4s_0s_4s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_4s_0s_4s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_4s_0s_4s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000100
+	A_HART_ID=32'b00000000000000000000000000000000
+	B_HART_ID=32'b00000000000000000000000000000100
+   Generated name = MIV_IHCC_4s_0s_4s
+Running optimization stage 1 on MIV_IHCC_4s_0s_4s .......
+Finished optimization stage 1 on MIV_IHCC_4s_0s_4s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_mem.v":43:7:43:18|Synthesizing module miv_ihcc_mem in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+   Generated name = miv_ihcc_mem_2s
+Running optimization stage 1 on miv_ihcc_mem_2s .......
+Finished optimization stage 1 on miv_ihcc_mem_2s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000001
+	B_HART_ID=32'b00000000000000000000000000000010
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_2s_1s_2s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_2s_1s_2s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_2s_1s_2s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000001
+	B_HART_ID=32'b00000000000000000000000000000010
+   Generated name = MIV_IHCC_2s_1s_2s
+Running optimization stage 1 on MIV_IHCC_2s_1s_2s .......
+Finished optimization stage 1 on MIV_IHCC_2s_1s_2s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000001
+	B_HART_ID=32'b00000000000000000000000000000011
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_2s_1s_3s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_2s_1s_3s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_2s_1s_3s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000001
+	B_HART_ID=32'b00000000000000000000000000000011
+   Generated name = MIV_IHCC_2s_1s_3s
+Running optimization stage 1 on MIV_IHCC_2s_1s_3s .......
+Finished optimization stage 1 on MIV_IHCC_2s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 153MB peak: 153MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000001
+	B_HART_ID=32'b00000000000000000000000000000100
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_2s_1s_4s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_2s_1s_4s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_2s_1s_4s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000001
+	B_HART_ID=32'b00000000000000000000000000000100
+   Generated name = MIV_IHCC_2s_1s_4s
+Running optimization stage 1 on MIV_IHCC_2s_1s_4s .......
+Finished optimization stage 1 on MIV_IHCC_2s_1s_4s (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000010
+	B_HART_ID=32'b00000000000000000000000000000011
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_2s_2s_3s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_2s_2s_3s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_2s_2s_3s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000010
+	B_HART_ID=32'b00000000000000000000000000000011
+   Generated name = MIV_IHCC_2s_2s_3s
+Running optimization stage 1 on MIV_IHCC_2s_2s_3s .......
+Finished optimization stage 1 on MIV_IHCC_2s_2s_3s (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000010
+	B_HART_ID=32'b00000000000000000000000000000100
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_2s_2s_4s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_2s_2s_4s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_2s_2s_4s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000010
+	B_HART_ID=32'b00000000000000000000000000000100
+   Generated name = MIV_IHCC_2s_2s_4s
+Running optimization stage 1 on MIV_IHCC_2s_2s_4s .......
+Finished optimization stage 1 on MIV_IHCC_2s_2s_4s (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000011
+	B_HART_ID=32'b00000000000000000000000000000100
+	IP_VERSION=32'b00000000000000000000000000000001
+	message_depth=32'b00000000000000000000000000000011
+   Generated name = miv_ihcc_ctrl_2s_3s_4s_1s_3s
+Running optimization stage 1 on miv_ihcc_ctrl_2s_3s_4s_1s_3s .......
+Finished optimization stage 1 on miv_ihcc_ctrl_2s_3s_4s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+
+	MESSAGE_DEPTH=32'b00000000000000000000000000000010
+	A_HART_ID=32'b00000000000000000000000000000011
+	B_HART_ID=32'b00000000000000000000000000000100
+   Generated name = MIV_IHCC_2s_3s_4s
+Running optimization stage 1 on MIV_IHCC_2s_3s_4s .......
+Finished optimization stage 1 on MIV_IHCC_2s_3s_4s (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 154MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcia.v":43:7:43:15|Synthesizing module MIV_IHCIA in library work.
+Running optimization stage 1 on MIV_IHCIA .......
+Finished optimization stage 1 on MIV_IHCIA (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 155MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+
+	APB_DWIDTH=6'b100000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b1
+	APBSLOT2ENABLE=1'b1
+	APBSLOT3ENABLE=1'b1
+	APBSLOT4ENABLE=1'b1
+	APBSLOT5ENABLE=1'b1
+	APBSLOT6ENABLE=1'b1
+	APBSLOT7ENABLE=1'b1
+	APBSLOT8ENABLE=1'b1
+	APBSLOT9ENABLE=1'b1
+	APBSLOT10ENABLE=1'b1
+	APBSLOT11ENABLE=1'b1
+	APBSLOT12ENABLE=1'b1
+	APBSLOT13ENABLE=1'b1
+	APBSLOT14ENABLE=1'b1
+	APBSLOT15ENABLE=1'b1
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b001100
+	UPR_NIBBLE_POSN=4'b0110
+	FAMILY=32'b00000000000000000000000000011011
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IADDR_NOTINUSE=32'b00000000000000000000000000000000
+	IADDR_EXTERNAL=32'b00000000000000000000000000000001
+	IADDR_SLOT0=32'b00000000000000000000000000000010
+	IADDR_SLOT1=32'b00000000000000000000000000000011
+	IADDR_SLOT2=32'b00000000000000000000000000000100
+	IADDR_SLOT3=32'b00000000000000000000000000000101
+	IADDR_SLOT4=32'b00000000000000000000000000000110
+	IADDR_SLOT5=32'b00000000000000000000000000000111
+	IADDR_SLOT6=32'b00000000000000000000000000001000
+	IADDR_SLOT7=32'b00000000000000000000000000001001
+	IADDR_SLOT8=32'b00000000000000000000000000001010
+	IADDR_SLOT9=32'b00000000000000000000000000001011
+	IADDR_SLOT10=32'b00000000000000000000000000001100
+	IADDR_SLOT11=32'b00000000000000000000000000001101
+	IADDR_SLOT12=32'b00000000000000000000000000001110
+	IADDR_SLOT13=32'b00000000000000000000000000001111
+	IADDR_SLOT14=32'b00000000000000000000000000010000
+	IADDR_SLOT15=32'b00000000000000000000000000010001
+	SL0=16'b0000000000000001
+	SL1=16'b0000000000000010
+	SL2=16'b0000000000000100
+	SL3=16'b0000000000001000
+	SL4=16'b0000000000010000
+	SL5=16'b0000000000100000
+	SL6=16'b0000000001000000
+	SL7=16'b0000000010000000
+	SL8=16'b0000000100000000
+	SL9=16'b0000001000000000
+	SL10=16'b0000010000000000
+	SL11=16'b0000100000000000
+	SL12=16'b0001000000000000
+	SL13=16'b0010000000000000
+	SL14=16'b0100000000000000
+	SL15=16'b1000000000000000
+	SC=16'b0000000000000000
+	SC_qual=16'b0000000000000000
+   Generated name = CoreAPB3_Z2
+Running optimization stage 1 on CoreAPB3_Z2 .......
+Finished optimization stage 1 on CoreAPB3_Z2 (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 155MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/IHC_APB/IHC_APB.v":57:7:57:13|Synthesizing module IHC_APB in library work.
+Running optimization stage 1 on IHC_APB .......
+Finished optimization stage 1 on IHC_APB (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 155MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/IHC_SUBSYSTEM/IHC_SUBSYSTEM.v":9:7:9:19|Synthesizing module IHC_SUBSYSTEM in library work.
+Running optimization stage 1 on IHC_SUBSYSTEM .......
+Finished optimization stage 1 on IHC_SUBSYSTEM (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 155MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":287:7:287:12|Synthesizing module OUTBUF in library work.
+Running optimization stage 1 on OUTBUF .......
+Finished optimization stage 1 on OUTBUF (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":264:7:264:11|Synthesizing module INBUF in library work.
+Running optimization stage 1 on INBUF .......
+Finished optimization stage 1 on INBUF (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":223:7:223:9|Synthesizing module INV in library work.
+Running optimization stage 1 on INV .......
+Finished optimization stage 1 on INV (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":357:7:357:16|Synthesizing module INBUF_DIFF in library work.
+Running optimization stage 1 on INBUF_DIFF .......
+Finished optimization stage 1 on INBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":403:7:403:17|Synthesizing module OUTBUF_DIFF in library work.
+Running optimization stage 1 on OUTBUF_DIFF .......
+Finished optimization stage 1 on OUTBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":449:7:449:16|Synthesizing module BIBUF_DIFF in library work.
+Running optimization stage 1 on BIBUF_DIFF .......
+Finished optimization stage 1 on BIBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+Running optimization stage 1 on VCC .......
+Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":500:7:500:9|Synthesizing module GND in library work.
+Running optimization stage 1 on GND .......
+Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_SOC_MSS/MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v":5:7:5:9|Synthesizing module MSS in library work.
+Running optimization stage 1 on MSS .......
+Finished optimization stage 1 on MSS (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 158MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_SOC_MSS/PF_SOC_MSS.v":5:7:5:16|Synthesizing module PF_SOC_MSS in library work.
+Running optimization stage 1 on PF_SOC_MSS .......
+Finished optimization stage 1 on PF_SOC_MSS (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/BVF_RISCV_SUBSYSTEM/BVF_RISCV_SUBSYSTEM.v":9:7:9:25|Synthesizing module BVF_RISCV_SUBSYSTEM in library work.
+Running optimization stage 1 on BVF_RISCV_SUBSYSTEM .......
+Finished optimization stage 1 on BVF_RISCV_SUBSYSTEM (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/apb_ctrl_status.v":2:7:2:21|Synthesizing module apb_ctrl_status in library work.
+Running optimization stage 1 on apb_ctrl_status .......
+Finished optimization stage 1 on apb_ctrl_status (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/P8_IOPADS.v":9:7:9:15|Synthesizing module P8_IOPADS in library work.
+Running optimization stage 1 on P8_IOPADS .......
+Finished optimization stage 1 on P8_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/P9_11_18_IOPADS.v":9:7:9:21|Synthesizing module P9_11_18_IOPADS in library work.
+Running optimization stage 1 on P9_11_18_IOPADS .......
+Finished optimization stage 1 on P9_11_18_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/P9_21_31_IOPADS.v":9:7:9:21|Synthesizing module P9_21_31_IOPADS in library work.
+Running optimization stage 1 on P9_21_31_IOPADS .......
+Finished optimization stage 1 on P9_21_31_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/P9_41_42_IOPADS.v":9:7:9:21|Synthesizing module P9_41_42_IOPADS in library work.
+Running optimization stage 1 on P9_41_42_IOPADS .......
+Finished optimization stage 1 on P9_41_42_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/my_logic.v":2:7:2:12|Synthesizing module blinky in library work.
+Running optimization stage 1 on blinky .......
+Finished optimization stage 1 on blinky (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/CAPE.v":9:7:9:10|Synthesizing module CAPE in library work.
+Running optimization stage 1 on CAPE .......
+Finished optimization stage 1 on CAPE (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CORERESET/CORERESET_0/core/corereset_pf.v":21:7:21:40|Synthesizing module CORERESET_CORERESET_0_CORERESET_PF in library work.
+Running optimization stage 1 on CORERESET_CORERESET_0_CORERESET_PF .......
+Finished optimization stage 1 on CORERESET_CORERESET_0_CORERESET_PF (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CORERESET/CORERESET.v":21:7:21:15|Synthesizing module CORERESET in library work.
+Running optimization stage 1 on CORERESET .......
+Finished optimization stage 1 on CORERESET (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":121:7:121:10|Synthesizing module AND2 in library work.
+Running optimization stage 1 on AND2 .......
+Finished optimization stage 1 on AND2 (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":489:7:489:12|Synthesizing module CLKINT in library work.
+Running optimization stage 1 on CLKINT .......
+Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@W: CG168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/FPGA_CCC_C0/FPGA_CCC_C0_0/FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC.v":47:27:47:36|Type of parameter VCOFREQUENCY on the instance pll_inst_0 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":3694:7:3694:9|Synthesizing module PLL in library work.
+Running optimization stage 1 on PLL .......
+Finished optimization stage 1 on PLL (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/FPGA_CCC_C0/FPGA_CCC_C0_0/FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC.v":5:7:5:38|Synthesizing module FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC in library work.
+Running optimization stage 1 on FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC .......
+Finished optimization stage 1 on FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/FPGA_CCC_C0/FPGA_CCC_C0.v":264:7:264:17|Synthesizing module FPGA_CCC_C0 in library work.
+Running optimization stage 1 on FPGA_CCC_C0 .......
+Finished optimization stage 1 on FPGA_CCC_C0 (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@W: CG168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter FABRIC_POR_N_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter PCIE_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter SRAM_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter UIC_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Type of parameter USRAM_INIT_DONE_SIMULATION_DELAY on the instance I_INIT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1702:7:1702:10|Synthesizing module INIT in library work.
+Running optimization stage 1 on INIT .......
+Finished optimization stage 1 on INIT (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":5:7:5:52|Synthesizing module INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR in library work.
+Running optimization stage 1 on INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR .......
+@W: CL168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":48:8:48:15|Removing instance gnd_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":47:8:47:15|Removing instance vcc_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+Finished optimization stage 1 on INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR.v":71:7:71:18|Synthesizing module INIT_MONITOR in library work.
+Running optimization stage 1 on INIT_MONITOR .......
+Finished optimization stage 1 on INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":2199:7:2199:18|Synthesizing module OSC_RC160MHZ in library work.
+Running optimization stage 1 on OSC_RC160MHZ .......
+Finished optimization stage 1 on OSC_RC160MHZ (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v":5:7:5:50|Synthesizing module OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC in library work.
+Running optimization stage 1 on OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC .......
+@W: CL168 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v":17:8:17:15|Removing instance gnd_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+Finished optimization stage 1 on OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz.v":27:7:27:23|Synthesizing module OSCILLATOR_160MHz in library work.
+Running optimization stage 1 on OSCILLATOR_160MHz .......
+Finished optimization stage 1 on OSCILLATOR_160MHz (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_CCC_ADC/PF_CCC_ADC_0/PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC.v":5:7:5:36|Synthesizing module PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC in library work.
+Running optimization stage 1 on PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC .......
+Finished optimization stage 1 on PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_CCC_ADC/PF_CCC_ADC.v":264:7:264:16|Synthesizing module PF_CCC_ADC in library work.
+Running optimization stage 1 on PF_CCC_ADC .......
+Finished optimization stage 1 on PF_CCC_ADC (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v":9:7:9:23|Synthesizing module CLOCKS_AND_RESETS in library work.
+Running optimization stage 1 on CLOCKS_AND_RESETS .......
+Finished optimization stage 1 on CLOCKS_AND_RESETS (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/my_custom_cape/my_custom_cape.v":9:7:9:20|Synthesizing module my_custom_cape in library work.
+Running optimization stage 1 on my_custom_cape .......
+Finished optimization stage 1 on my_custom_cape (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on my_custom_cape .......
+Finished optimization stage 2 on my_custom_cape (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on CLOCKS_AND_RESETS .......
+Finished optimization stage 2 on CLOCKS_AND_RESETS (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on PF_CCC_ADC .......
+Finished optimization stage 2 on PF_CCC_ADC (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC .......
+Finished optimization stage 2 on PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on OSCILLATOR_160MHz .......
+Finished optimization stage 2 on OSCILLATOR_160MHz (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC .......
+Finished optimization stage 2 on OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on OSC_RC160MHZ .......
+Finished optimization stage 2 on OSC_RC160MHZ (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on INIT_MONITOR .......
+Finished optimization stage 2 on INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR .......
+Finished optimization stage 2 on INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on INIT .......
+Finished optimization stage 2 on INIT (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on FPGA_CCC_C0 .......
+Finished optimization stage 2 on FPGA_CCC_C0 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC .......
+Finished optimization stage 2 on FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on PLL .......
+Finished optimization stage 2 on PLL (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on CLKINT .......
+Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on AND2 .......
+Finished optimization stage 2 on AND2 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on CORERESET .......
+Finished optimization stage 2 on CORERESET (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on CORERESET_CORERESET_0_CORERESET_PF .......
+@N: CL135 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CORERESET/CORERESET_0/core/corereset_pf.v":58:0:58:5|Found sequential shift dff with address depth of 16 words and data bit width of 1.
+Finished optimization stage 2 on CORERESET_CORERESET_0_CORERESET_PF (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on CAPE .......
+@W: CL246 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/CAPE.v":95:14:95:34|Input port bits 31 to 8 of APB_SLAVE_SLAVE_PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/CAPE.v":100:14:100:20|Input port bit 5 of GPIO_OE[27:0] is unused
+
+@W: CL247 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/CAPE.v":101:14:101:21|Input port bit 5 of GPIO_OUT[27:0] is unused
+
+Finished optimization stage 2 on CAPE (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on blinky .......
+Finished optimization stage 2 on blinky (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on P9_41_42_IOPADS .......
+Finished optimization stage 2 on P9_41_42_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on P9_21_31_IOPADS .......
+Finished optimization stage 2 on P9_21_31_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on P9_11_18_IOPADS .......
+Finished optimization stage 2 on P9_11_18_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on P8_IOPADS .......
+Finished optimization stage 2 on P8_IOPADS (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Running optimization stage 2 on apb_ctrl_status .......
+Finished optimization stage 2 on apb_ctrl_status (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on BVF_RISCV_SUBSYSTEM .......
+Finished optimization stage 2 on BVF_RISCV_SUBSYSTEM (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on PF_SOC_MSS .......
+Finished optimization stage 2 on PF_SOC_MSS (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MSS .......
+Finished optimization stage 2 on MSS (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on GND .......
+Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on VCC .......
+Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on BIBUF_DIFF .......
+Finished optimization stage 2 on BIBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on OUTBUF_DIFF .......
+Finished optimization stage 2 on OUTBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on INBUF_DIFF .......
+Finished optimization stage 2 on INBUF_DIFF (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on INV .......
+Finished optimization stage 2 on INV (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on INBUF .......
+Finished optimization stage 2 on INBUF (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on OUTBUF .......
+Finished optimization stage 2 on OUTBUF (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on IHC_SUBSYSTEM .......
+Finished optimization stage 2 on IHC_SUBSYSTEM (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on IHC_APB .......
+Finished optimization stage 2 on IHC_APB (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on CoreAPB3_Z2 .......
+@W: CL246 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":75:18:75:22|Input port bits 27 to 12 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":74:13:74:16|Input PCLK is unused.
+Finished optimization stage 2 on CoreAPB3_Z2 (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCIA .......
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcia.v":46:28:46:34|Input penable is unused.
+Finished optimization stage 2 on MIV_IHCIA (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_2s_3s_4s .......
+Finished optimization stage 2 on MIV_IHCC_2s_3s_4s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_2s_3s_4s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_2s_3s_4s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_2s_2s_4s .......
+Finished optimization stage 2 on MIV_IHCC_2s_2s_4s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_2s_2s_4s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_2s_2s_4s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_2s_2s_3s .......
+Finished optimization stage 2 on MIV_IHCC_2s_2s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_2s_2s_3s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_2s_2s_3s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_2s_1s_4s .......
+Finished optimization stage 2 on MIV_IHCC_2s_1s_4s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_2s_1s_4s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_2s_1s_4s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_2s_1s_3s .......
+Finished optimization stage 2 on MIV_IHCC_2s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_2s_1s_3s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_2s_1s_3s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_2s_1s_2s .......
+Finished optimization stage 2 on MIV_IHCC_2s_1s_2s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_2s_1s_2s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_2s_1s_2s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_mem_2s .......
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_mem.v":45:32:45:37|Input resetn is unused.
+Finished optimization stage 2 on miv_ihcc_mem_2s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_4s_0s_4s .......
+Finished optimization stage 2 on MIV_IHCC_4s_0s_4s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_4s_0s_4s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_4s_0s_4s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_4s_0s_3s .......
+Finished optimization stage 2 on MIV_IHCC_4s_0s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_4s_0s_3s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_4s_0s_3s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_4s_0s_2s .......
+Finished optimization stage 2 on MIV_IHCC_4s_0s_2s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_4s_0s_2s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_4s_0s_2s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on MIV_IHCC_4s_0s_1s .......
+Finished optimization stage 2 on MIV_IHCC_4s_0s_1s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_ctrl_4s_0s_1s_1s_3s .......
+Finished optimization stage 2 on miv_ihcc_ctrl_4s_0s_1s_1s_3s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_mem_4s .......
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_mem.v":45:32:45:37|Input resetn is unused.
+Finished optimization stage 2 on miv_ihcc_mem_4s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on miv_ihcc_irqs .......
+Finished optimization stage 2 on miv_ihcc_irqs (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on APB_ARBITER_12s .......
+Finished optimization stage 2 on APB_ARBITER_12s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on BIBUF .......
+Finished optimization stage 2 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on FIC3_INITIATOR .......
+Finished optimization stage 2 on FIC3_INITIATOR (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on CoreAPB3_Z1 .......
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":104:18:104:25|Input PRDATAS0 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":107:18:107:25|Input PRDATAS3 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":121:13:121:20|Input PREADYS0 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":124:13:124:20|Input PREADYS3 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":138:13:138:21|Input PSLVERRS0 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":141:13:141:21|Input PSLVERRS3 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":143:13:143:21|Input PSLVERRS5 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
+Finished optimization stage 2 on CoreAPB3_Z1 (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on COREAPB3_MUXPTOB3 .......
+Finished optimization stage 2 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on APB_ARBITER_28s .......
+Finished optimization stage 2 on APB_ARBITER_28s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+Running optimization stage 2 on AND4 .......
+Finished optimization stage 2 on AND4 (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 164MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/synwork/layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 164MB peak: 164MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jan 31 17:00:48 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: /home/aven/microchip/SynplifyPro
+OS: Ubuntu 22.04.3 LTS
+Hostname: aven-22-04
+max virtual memory: unlimited (bytes)
+max user processes: 255136
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:53, @4799148
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 143MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jan 31 17:00:48 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/synwork/my_custom_cape_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 44MB peak: 44MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jan 31 17:00:48 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: /home/aven/microchip/SynplifyPro
+OS: Ubuntu 22.04.3 LTS
+Hostname: aven-22-04
+max virtual memory: unlimited (bytes)
+max user processes: 255136
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:53, @4799148
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 151MB peak: 151MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jan 31 17:00:49 2024
+
+###########################################################]
+Premap Report
+
+# Wed Jan 31 17:00:49 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: /home/aven/microchip/SynplifyPro
+OS: Ubuntu 22.04.3 LTS
+Hostname: aven-22-04
+max virtual memory: unlimited (bytes)
+max user processes: 255136
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202209actsp2, Build 145R, Built Jun 27 2023 10:02:01, @4799148
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 231MB peak: 231MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 243MB peak: 243MB)
+
+Reading constraint file: /home/aven/repos/riscv-fpga/my_custom_cape/designer/my_custom_cape/synthesis.fdc
+@L: /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/my_custom_cape_scck.rpt 
+See clock summary report "/home/aven/repos/riscv-fpga/my_custom_cape/synthesis/my_custom_cape_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 260MB peak: 260MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 260MB peak: 260MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 263MB peak: 263MB)
+
+NConnInternalConnection caching is on
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_irqs.v":97:4:97:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.u_miv_ihcc_ctrl.data_out_b[5:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_irqs.v":97:4:97:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.u_miv_ihcc_ctrl.data_out_a[5:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.B_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.A_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.B_WRITE_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.A_WRITE_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.B_CTRL_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.A_CTRL_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.B_CTRL_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.B_MSG_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.A_CTRL_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.A_MSG_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.B_MBX_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.A_MBX_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.B_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.B_WRITE_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_WRITE_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.B_CTRL_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_CTRL_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.B_CTRL_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.B_MSG_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_CTRL_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_MSG_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.B_MBX_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_MBX_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.B_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.B_WRITE_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_WRITE_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.B_CTRL_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_CTRL_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.B_CTRL_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.B_MSG_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_CTRL_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_MSG_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.B_MBX_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_MBX_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.B_WRITE_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_WRITE_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.B_CTRL_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_CTRL_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.B_CTRL_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.B_MSG_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_CTRL_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_MSG_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.B_MBX_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_MBX_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.B_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.A_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.B_WRITE_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.A_WRITE_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.B_CTRL_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.A_CTRL_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.B_CTRL_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.B_MSG_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.A_CTRL_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.A_MSG_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.B_MBX_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.A_MBX_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.B_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.A_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.B_WRITE_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.A_WRITE_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.B_CTRL_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.A_CTRL_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.B_CTRL_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.B_MSG_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.A_CTRL_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.A_MSG_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.B_MBX_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.A_MBX_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.A_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.B_WRITE_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.A_WRITE_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.B_CTRL_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.A_CTRL_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.B_CTRL_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.B_MSG_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.A_CTRL_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.A_MSG_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.B_MBX_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.A_MBX_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.B_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.A_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.B_WRITE_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.A_WRITE_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.B_CTRL_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.A_CTRL_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.B_CTRL_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.B_MSG_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.A_CTRL_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.A_MSG_READ with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":322:4:322:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.B_MBX_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":206:4:206:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.A_MBX_WRITE with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":262:4:262:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":146:4:146:9|Found instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.A_READ_VALID with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+
+Only the first 100 messages of id 'FX1171' are reported. To see all messages use 'report_messages -log /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/synlog/my_custom_cape_premap.srr -id FX1171' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {FX1171} -count unlimited' in the Tcl shell.
+@W: FX1183 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CORERESET/CORERESET_0/core/corereset_pf.v":58:0:58:5|User-specified initial value set for instance CLOCKS_AND_RESETS_inst_0.FIC_3_RESET_0.CORERESET_0.dff cannot be supported due to limitations in architecture. Please remove the initial value set on the instance to avoid the warning. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 303MB peak: 303MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 303MB peak: 303MB)
+
+
+Start optimization across hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 303MB peak: 303MB)
+
+@N: BN115 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v":139:10:139:20|Removing instance FIC_1_RESET (in view: work.CLOCKS_AND_RESETS(verilog)) because it does not drive other instances.
+@N: BN115 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v":156:10:156:22|Removing instance FIC_2_RESET_0 (in view: work.CLOCKS_AND_RESETS(verilog)) because it does not drive other instances.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":251:4:251:9|Removing sequential instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.B_SEL[1:0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":251:4:251:9|Removing sequential instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.B_SEL[1:0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":251:4:251:9|Removing sequential instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.B_SEL[1:0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":251:4:251:9|Removing sequential instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.B_SEL[1:0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":251:4:251:9|Removing sequential instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_3_TO_U54_4.amp_miv_ihcc_ctrl.B_SEL[1:0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_3_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":251:4:251:9|Removing sequential instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.B_SEL[1:0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":251:4:251:9|Removing sequential instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.B_SEL[1:0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":251:4:251:9|Removing sequential instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.B_SEL[1:0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":251:4:251:9|Removing sequential instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.B_SEL[1:0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":251:4:251:9|Removing sequential instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.B_SEL[1:0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished optimization across hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 303MB peak: 303MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 303MB peak: 303MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 303MB peak: 303MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=84 on top level netlist my_custom_cape 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 306MB peak: 306MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                                      Requested     Requested     Clock                             Clock                Clock
+Level     Clock                                                                      Frequency     Period        Type                              Group                Load 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       osc_rc160mhz                                                               160.0 MHz     6.250         declared                          default_clkgroup     2    
+1 .         CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     50.0 MHz      20.000        generated (from osc_rc160mhz)     FIC3_clks            3033 
+1 .         CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     125.0 MHz     8.000         generated (from osc_rc160mhz)     FIC0_clks            17   
+1 .         CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT1     125.0 MHz     8.000         generated (from osc_rc160mhz)     FIC1_clks            1    
+1 .         CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT2     125.0 MHz     8.000         generated (from osc_rc160mhz)     FIC2_clks            1    
+1 .         CLOCKS_AND_RESETS_inst_0/PF_CCC_ADC_0/PF_CCC_ADC_0/pll_inst_0/OUT0       4.9 MHz       203.459       generated (from osc_rc160mhz)     default_clkgroup     0    
+                                                                                                                                                                             
+0 -       System                                                                     100.0 MHz     10.000        system                            system_clkgroup      0    
+=============================================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                                         Clock     Source                                                                                                Clock Pin                                                                   Non-clock Pin     Non-clock Pin                                                                              
+Clock                                                                    Load      Pin                                                                                                   Seq Example                                                                 Seq Example       Comb Example                                                                               
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+osc_rc160mhz                                                             2         CLOCKS_AND_RESETS_inst_0.OSCILLATOR_160MHz_inst_0.OSCILLATOR_160MHz_0.I_OSC_160.CLK(OSC_RC160MHZ)     CLOCKS_AND_RESETS_inst_0.PF_CCC_ADC_0.PF_CCC_ADC_0.pll_inst_0.REF_CLK_0     -                 CLOCKS_AND_RESETS_inst_0.OSCILLATOR_160MHz_inst_0.OSCILLATOR_160MHz_0.I_OSC_160_INT.I(BUFG)
+CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     3033      CLOCKS_AND_RESETS_inst_0.FPGA_CCC_C0_0.FPGA_CCC_C0_0.pll_inst_0.OUT3(PLL)                             CLOCKS_AND_RESETS_inst_0.FIC_3_RESET_0.CORERESET_0.dff_0.C                  -                 CLOCKS_AND_RESETS_inst_0.FPGA_CCC_C0_0.FPGA_CCC_C0_0.clkint_12.I(BUFG)                     
+CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     17        CLOCKS_AND_RESETS_inst_0.FPGA_CCC_C0_0.FPGA_CCC_C0_0.pll_inst_0.OUT0(PLL)                             CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_0.C                    -                 CLOCKS_AND_RESETS_inst_0.FPGA_CCC_C0_0.FPGA_CCC_C0_0.clkint_0.I(BUFG)                      
+CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT1     1         CLOCKS_AND_RESETS_inst_0.FPGA_CCC_C0_0.FPGA_CCC_C0_0.pll_inst_0.OUT1(PLL)                             BVF_RISCV_SUBSYSTEM_inst_0.PF_SOC_MSS_inst_0.I_MSS.FIC_1_ACLK               -                 CLOCKS_AND_RESETS_inst_0.FPGA_CCC_C0_0.FPGA_CCC_C0_0.clkint_4.I(BUFG)                      
+CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT2     1         CLOCKS_AND_RESETS_inst_0.FPGA_CCC_C0_0.FPGA_CCC_C0_0.pll_inst_0.OUT2(PLL)                             BVF_RISCV_SUBSYSTEM_inst_0.PF_SOC_MSS_inst_0.I_MSS.FIC_2_ACLK               -                 CLOCKS_AND_RESETS_inst_0.FPGA_CCC_C0_0.FPGA_CCC_C0_0.clkint_8.I(BUFG)                      
+CLOCKS_AND_RESETS_inst_0/PF_CCC_ADC_0/PF_CCC_ADC_0/pll_inst_0/OUT0       0         CLOCKS_AND_RESETS_inst_0.PF_CCC_ADC_0.PF_CCC_ADC_0.pll_inst_0.OUT0(PLL)                               -                                                                           -                 CLOCKS_AND_RESETS_inst_0.PF_CCC_ADC_0.PF_CCC_ADC_0.clkint_0.I(BUFG)                        
+                                                                                                                                                                                                                                                                                                                                                                                  
+System                                                                   0         -                                                                                                     -                                                                           -                 -                                                                                          
+==================================================================================================================================================================================================================================================================================================================================================================================
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/my_custom_cape.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 306MB peak: 306MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 306MB peak: 306MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 306MB peak: 306MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 306MB peak: 306MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jan 31 17:00:51 2024
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Jan 31 17:00:51 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: /home/aven/microchip/SynplifyPro
+OS: Ubuntu 22.04.3 LTS
+Hostname: aven-22-04
+max virtual memory: unlimited (bytes)
+max user processes: 255136
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202209actsp2, Build 145R, Built Jun 27 2023 10:02:01, @4799148
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 231MB peak: 231MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 243MB peak: 243MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 243MB peak: 243MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 243MB peak: 243MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 243MB peak: 243MB)
+
+
+@N: MF104 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/IHC_SUBSYSTEM/IHC_SUBSYSTEM.v":9:7:9:19|Found compile point of type hard on View view:work.IHC_SUBSYSTEM(verilog) 
+
+Synthesis running in Multiprocessing mode
+Maximum number of parallel jobs set to 4
+Multiprocessing started at : Wed Jan 31 17:00:51 2024
+Mapping IHC_SUBSYSTEM as a separate process
+Mapping my_custom_cape as a separate process
+MCP Status: 2 jobs running
+
+@N: MF106 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/my_custom_cape/my_custom_cape.v":9:7:9:20|Mapping Top level view:work.my_custom_cape(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 296MB peak: 296MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 296MB peak: 296MB)
+
+@N: MO231 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/my_logic.v":13:3:13:8|Found counter in view:work.CAPE(verilog) instance blinky_0.counter[22:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 296MB peak: 296MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 296MB peak: 296MB)
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 296MB peak: 296MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 296MB peak: 296MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 296MB peak: 296MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 296MB peak: 296MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 296MB peak: 296MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 296MB peak: 296MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		     7.54ns		 242 /       152
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 296MB peak: 296MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 296MB peak: 296MB)
+
+
+Finished mapping my_custom_cape
+MCP Status: 1 jobs running
+
+@N: MF106 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/IHC_SUBSYSTEM/IHC_SUBSYSTEM.v":9:7:9:19|Mapping Compile point view:work.IHC_SUBSYSTEM(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 283MB peak: 283MB)
+
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":135:4:135:9|Removing sequential instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_3_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":135:4:135:9|Removing sequential instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":135:4:135:9|Removing sequential instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1:0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":135:4:135:9|Removing sequential instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1:0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":135:4:135:9|Removing sequential instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1:0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: BZ173 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z2_0(verilog)) mapped in logic.
+@N: BZ173 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z2_0(verilog)) mapped in logic.
+@N: MO106 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":267:2:267:5|Found ROM iPSELS_raw_5[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z2_0(verilog)) with 16 words by 16 bits.
+@N: BZ173 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z2_1(verilog)) mapped in logic.
+@N: BZ173 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z2_1(verilog)) mapped in logic.
+@N: MO106 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":267:2:267:5|Found ROM iPSELS_raw_5[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z2_1(verilog)) with 16 words by 16 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 289MB peak: 289MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 291MB peak: 291MB)
+
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":135:4:135:9|Removing instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":135:4:135:9|Removing instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":135:4:135:9|Removing instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":135:4:135:9|Removing instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[0] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.A_SEL[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":135:4:135:9|Removing instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_1_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[1] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":135:4:135:9|Removing instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_4.amp_miv_ihcc_ctrl.A_SEL[1] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":135:4:135:9|Removing instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_3.amp_miv_ihcc_ctrl.A_SEL[1] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":135:4:135:9|Removing instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_2.amp_miv_ihcc_ctrl.A_SEL[1] because it is equivalent to instance BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_E51_TO_U54_1.amp_miv_ihcc_ctrl.A_SEL[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 307MB peak: 307MB)
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 349MB peak: 349MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 349MB peak: 349MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 349MB peak: 349MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 349MB peak: 349MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 349MB peak: 349MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 349MB peak: 349MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		     9.40ns		2838 /      2912
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 349MB peak: 349MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 349MB peak: 349MB)
+
+
+Finished mapping IHC_SUBSYSTEM
+Multiprocessing finished at : Wed Jan 31 17:00:56 2024
+Multiprocessing took 0h:00m:04s realtime, 0h:00m:07s cputime
+
+Summary of Compile Points :
+*************************** 
+Name               Status     Reason          Start Time                   End Time                     Realtime       CPU Time       Fast Synthesis
+----------------------------------------------------------------------------------------------------------------------------------------------------
+IHC_SUBSYSTEM      Mapped     No database     Wed Jan 31 17:00:51 2024     Wed Jan 31 17:00:55 2024     0h:00m:04s     0h:00m:04s     No            
+my_custom_cape     Mapped     No database     Wed Jan 31 17:00:51 2024     Wed Jan 31 17:00:54 2024     0h:00m:02s     0h:00m:02s     No            
+====================================================================================================================================================
+Total number of compile points: 2
+===================================
+
+Links to Compile point Reports:
+******************************
+@L: "/home/aven/repos/riscv-fpga/my_custom_cape/synthesis/IHC_SUBSYSTEM/IHC_SUBSYSTEM.srr"
+@L: "/home/aven/repos/riscv-fpga/my_custom_cape/synthesis/my_custom_cape/my_custom_cape.srr"
+
+==============================
+
+
+Start loading CP mapped netlist (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:07s; Memory used current: 307MB peak: 307MB)
+
+
+Finished loading CP mapped netlist (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:07s; Memory used current: 319MB peak: 319MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:07s; Memory used current: 321MB peak: 321MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:07s; Memory used current: 321MB peak: 321MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:07s; Memory used current: 321MB peak: 321MB)
+
+Writing Analyst data base /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/synwork/my_custom_cape_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:08s; Memory used current: 321MB peak: 321MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :"/home/aven/repos/riscv-fpga/my_custom_cape/designer/my_custom_cape/synthesis.fdc":14:0:14:0|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :"/home/aven/repos/riscv-fpga/my_custom_cape/designer/my_custom_cape/synthesis.fdc":15:0:15:0|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :"/home/aven/repos/riscv-fpga/my_custom_cape/designer/my_custom_cape/synthesis.fdc":16:0:16:0|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :"/home/aven/repos/riscv-fpga/my_custom_cape/designer/my_custom_cape/synthesis.fdc":17:0:17:0|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:09s; Memory used current: 321MB peak: 321MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:09s; Memory used current: 321MB peak: 321MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:09s; Memory used current: 321MB peak: 321MB)
+
+@W: MT246 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v":15:17:15:25|Blackbox OSC_RC160MHZ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":38:53:38:58|Blackbox INIT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@N: MT615 |Found clock osc_rc160mhz with period 6.25ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT1 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT2 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3 with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/PF_CCC_ADC_0/PF_CCC_ADC_0/pll_inst_0/OUT0 with period 203.46ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Jan 31 17:00:58 2024
+#
+
+
+Top view:               my_custom_cape
+Requested Frequency:    4.9 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /home/aven/repos/riscv-fpga/my_custom_cape/designer/my_custom_cape/synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 6.471
+
+                                                                         Requested     Estimated      Requested     Estimated                Clock                             Clock           
+Starting Clock                                                           Frequency     Frequency      Period        Period        Slack      Type                              Group           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     125.0 MHz     2521.4 MHz     8.000         0.397         7.603      generated (from osc_rc160mhz)     FIC0_clks       
+CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT1     125.0 MHz     NA             8.000         NA            NA         generated (from osc_rc160mhz)     FIC1_clks       
+CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT2     125.0 MHz     NA             8.000         NA            NA         generated (from osc_rc160mhz)     FIC2_clks       
+CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     50.0 MHz      124.2 MHz      20.000        8.050         11.950     generated (from osc_rc160mhz)     FIC3_clks       
+CLOCKS_AND_RESETS_inst_0/PF_CCC_ADC_0/PF_CCC_ADC_0/pll_inst_0/OUT0       4.9 MHz       NA             203.459       NA            NA         generated (from osc_rc160mhz)     default_clkgroup
+osc_rc160mhz                                                             160.0 MHz     NA             6.250         NA            NA         declared                          default_clkgroup
+System                                                                   100.0 MHz     283.3 MHz      10.000        3.529         6.471      system                            system_clkgroup 
+===============================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                      |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                              Ending                                                                |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                                CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0  |  8.000       6.471   |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                                CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3  |  20.000      18.471  |  No paths    -      |  No paths    -      |  No paths    -    
+CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0  CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0  |  8.000       7.603   |  No paths    -      |  No paths    -      |  No paths    -    
+CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3  CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3  |  20.000      11.950  |  No paths    -      |  No paths    -      |  No paths    -    
+===================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                           Starting                                                                                            Arrival          
+Instance                                                   Reference                                                                Type     Pin     Net       Time        Slack
+                                                           Clock                                                                                                                
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_0     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       dff_0     0.257       7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_1     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       dff_1     0.257       7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_2     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       dff_2     0.257       7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_3     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       dff_3     0.257       7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_4     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       dff_4     0.257       7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_5     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       dff_5     0.257       7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_6     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       dff_6     0.257       7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_7     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       dff_7     0.257       7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_8     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       dff_8     0.257       7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_9     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      Q       dff_9     0.257       7.603
+================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                            Starting                                                                                            Required          
+Instance                                                    Reference                                                                Type     Pin     Net       Time         Slack
+                                                            Clock                                                                                                                 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_1      CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      D       dff_0     8.000        7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_2      CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      D       dff_1     8.000        7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_3      CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      D       dff_2     8.000        7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_4      CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      D       dff_3     8.000        7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_5      CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      D       dff_4     8.000        7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_6      CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      D       dff_5     8.000        7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_7      CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      D       dff_6     8.000        7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_8      CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      D       dff_7     8.000        7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_9      CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      D       dff_8     8.000        7.603
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_10     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0     SLE      D       dff_9     8.000        7.603
+==================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.000
+
+    - Propagation time:                      0.397
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 7.603
+
+    Number of logic level(s):                0
+    Starting point:                          CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_0 / Q
+    Ending point:                            CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_1 / D
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+
+Instance / Net                                                      Pin      Pin               Arrival     No. of    
+Name                                                       Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_0     SLE      Q        Out     0.257     0.257 r     -         
+dff_0                                                      Net      -        -       0.139     -           1         
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_1     SLE      D        In      -         0.397 r     -         
+=====================================================================================================================
+Total path delay (propagation time + setup) of 0.397 is 0.257(64.9%) logic and 0.139(35.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                       Starting                                                                                                                                                      Arrival           
+Instance                                               Reference                                                                Type     Pin                       Net                                               Time        Slack 
+                                                       Clock                                                                                                                                                                           
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BVF_RISCV_SUBSYSTEM_inst_0.PF_SOC_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[28]     PF_SOC_MSS_FIC_3_APB_INITIATOR_PADDR[28]          1.793       11.950
+BVF_RISCV_SUBSYSTEM_inst_0.PF_SOC_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PSEL          PF_SOC_MSS_FIC_3_APB_INITIATOR_PSELx              1.678       12.029
+BVF_RISCV_SUBSYSTEM_inst_0.PF_SOC_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[11]     APB_ARBITER_0_APB_MASTER_high_PADDR[11]           1.768       12.079
+BVF_RISCV_SUBSYSTEM_inst_0.PF_SOC_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[12]     APB_ARBITER_0_APB_MASTER_high_PADDR[12]           1.758       12.670
+BVF_RISCV_SUBSYSTEM_inst_0.PF_SOC_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[10]     APB_ARBITER_0_APB_MASTER_high_PADDR[10]           1.772       12.902
+BVF_RISCV_SUBSYSTEM_inst_0.PF_SOC_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[8]      APB_ARBITER_0_APB_MASTER_high_PADDR[8]            1.763       13.242
+BVF_RISCV_SUBSYSTEM_inst_0.PF_SOC_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[9]      APB_ARBITER_0_APB_MASTER_high_PADDR[9]            1.716       13.273
+BVF_RISCV_SUBSYSTEM_inst_0.PF_SOC_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PENABLE       BVF_RISCV_SUBSYSTEM_CAPE_APB_MTARGET_PENABLE      1.693       13.504
+BVF_RISCV_SUBSYSTEM_inst_0.PF_SOC_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PWRITE        BVF_RISCV_SUBSYSTEM_CAPE_APB_MTARGET_PWRITE       1.380       13.643
+BVF_RISCV_SUBSYSTEM_inst_0.PF_SOC_MSS_inst_0.I_MSS     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     MSS      FIC_3_APB_M_PADDR[3]      BVF_RISCV_SUBSYSTEM_CAPE_APB_MTARGET_PADDR[3]     1.728       13.684
+=======================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                        Starting                                                                                                           Required           
+Instance                                                                                                Reference                                                                Type     Pin     Net                      Time         Slack 
+                                                                                                        Clock                                                                                                                                 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_DATA[6]      CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     SLE      EN      read_data24_RNIHGJ33     19.850       11.950
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_DATA[7]      CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     SLE      EN      read_data24_RNIHGJ33     19.850       11.950
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_DATA[8]      CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     SLE      EN      read_data24_RNIHGJ33     19.850       11.950
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_DATA[9]      CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     SLE      EN      read_data24_RNIHGJ33     19.850       11.950
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_DATA[10]     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     SLE      EN      read_data24_RNIHGJ33     19.850       11.950
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_DATA[11]     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     SLE      EN      read_data24_RNIHGJ33     19.850       11.950
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_DATA[12]     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     SLE      EN      read_data24_RNIHGJ33     19.850       11.950
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_DATA[13]     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     SLE      EN      read_data24_RNIHGJ33     19.850       11.950
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_DATA[14]     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     SLE      EN      read_data24_RNIHGJ33     19.850       11.950
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_DATA[15]     CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3     SLE      EN      read_data24_RNIHGJ33     19.850       11.950
+==============================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.000
+    - Setup time:                            0.150
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         19.850
+
+    - Propagation time:                      7.901
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 11.950
+
+    Number of logic level(s):                7
+    Starting point:                          BVF_RISCV_SUBSYSTEM_inst_0.PF_SOC_MSS_inst_0.I_MSS / FIC_3_APB_M_PADDR[28]
+    Ending point:                            BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_DATA[6] / EN
+    The start point is clocked by            CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3 [rising] (rise=0.000 fall=10.000 period=20.000) on pin FIC_3_PCLK
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3 [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+
+Instance / Net                                                                                                                          Pin                       Pin               Arrival     No. of    
+Name                                                                                                                           Type     Name                      Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BVF_RISCV_SUBSYSTEM_inst_0.PF_SOC_MSS_inst_0.I_MSS                                                                             MSS      FIC_3_APB_M_PADDR[28]     Out     1.793     1.793 f     -         
+PF_SOC_MSS_FIC_3_APB_INITIATOR_PADDR[28]                                                                                       Net      -                         -       0.665     -           4         
+BVF_RISCV_SUBSYSTEM_inst_0.APB_ARBITER_0.N_48_i                                                                                CFG2     A                         In      -         2.458 f     -         
+BVF_RISCV_SUBSYSTEM_inst_0.APB_ARBITER_0.N_48_i                                                                                CFG2     Y                         Out     0.056     2.514 f     -         
+N_48_i                                                                                                                         Net      -                         -       0.146     -           2         
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.APB_ARBITER_0.out_high_psel                                                         CFG2     A                         In      -         2.660 f     -         
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.APB_ARBITER_0.out_high_psel                                                         CFG2     Y                         Out     0.056     2.716 f     -         
+APB_ARBITER_0_APB_MASTER_high_PSELx                                                                                            Net      -                         -       0.751     -           9         
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_3_TO_U54_4.un1_a_penable_0_a2_2_a2_0                                    CFG2     A                         In      -         3.467 f     -         
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_3_TO_U54_4.un1_a_penable_0_a2_2_a2_0                                    CFG2     Y                         Out     0.056     3.523 f     -         
+N_885                                                                                                                          Net      -                         -       0.701     -           6         
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.IHC_APB_1.IHC_APB_0.iPSELS_0_a11_0_a2[6]                                            CFG4     D                         In      -         4.225 f     -         
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.IHC_APB_1.IHC_APB_0.iPSELS_0_a11_0_a2[6]                                            CFG4     Y                         Out     0.226     4.451 f     -         
+IHC_APB_1_APBmslave6_PSELx                                                                                                     Net      -                         -       1.007     -           34        
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.un1_b_penable_1                                              CFG3     C                         In      -         5.458 f     -         
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.un1_b_penable_1                                              CFG3     Y                         Out     0.172     5.629 f     -         
+un1_b_penable_1_i                                                                                                              Net      -                         -       0.822     -           14        
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_VALID_3_sqmuxa_i_0_0                CFG3     C                         In      -         6.452 f     -         
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_VALID_3_sqmuxa_i_0_0                CFG3     Y                         Out     0.154     6.605 r     -         
+B_READ_VALID_3_sqmuxa_i_0                                                                                                      Net      -                         -       0.308     -           8         
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.u_a_to_b_mem._l1\.read_data24_RNIHGJ33     CFG2     A                         In      -         6.913 r     -         
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.u_a_to_b_mem._l1\.read_data24_RNIHGJ33     CFG2     Y                         Out     0.060     6.973 r     -         
+read_data24_RNIHGJ33                                                                                                           Net      -                         -       0.928     -           26        
+BVF_RISCV_SUBSYSTEM_inst_0.IHC_SUBSYSTEM_0.CHANNEL_U54_2_TO_U54_4.amp_miv_ihcc_ctrl.B_READ_DATA[6]                             SLE      EN                        In      -         7.901 r     -         
+==========================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 8.050 is 2.722(33.8%) logic and 5.328(66.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                  Starting                                                      Arrival          
+Instance                                                          Reference     Type     Pin               Net                  Time        Slack
+                                                                  Clock                                                                          
+-------------------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0.INIT_MONITOR_0.INIT_MONITOR_0.I_INIT     System        INIT     UIC_INIT_DONE     DEVICE_INIT_DONE     0.000       6.471
+=================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                           Starting                                                   Required          
+Instance                                                   Reference     Type     Pin     Net                         Time         Slack
+                                                           Clock                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_0     System        SLE      ALn     un1_INTERNAL_RST_arst_i     7.977        6.471
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_1     System        SLE      ALn     un1_INTERNAL_RST_arst_i     7.977        6.471
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_2     System        SLE      ALn     un1_INTERNAL_RST_arst_i     7.977        6.471
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_3     System        SLE      ALn     un1_INTERNAL_RST_arst_i     7.977        6.471
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_4     System        SLE      ALn     un1_INTERNAL_RST_arst_i     7.977        6.471
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_5     System        SLE      ALn     un1_INTERNAL_RST_arst_i     7.977        6.471
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_6     System        SLE      ALn     un1_INTERNAL_RST_arst_i     7.977        6.471
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_7     System        SLE      ALn     un1_INTERNAL_RST_arst_i     7.977        6.471
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_8     System        SLE      ALn     un1_INTERNAL_RST_arst_i     7.977        6.471
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_9     System        SLE      ALn     un1_INTERNAL_RST_arst_i     7.977        6.471
+========================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.000
+    - Setup time:                            0.023
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.977
+
+    - Propagation time:                      1.506
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     6.471
+
+    Number of logic level(s):                1
+    Starting point:                          CLOCKS_AND_RESETS_inst_0.INIT_MONITOR_0.INIT_MONITOR_0.I_INIT / UIC_INIT_DONE
+    Ending point:                            CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_0 / ALn
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=4.000 period=8.000) on pin CLK
+
+Instance / Net                                                             Pin               Pin               Arrival     No. of    
+Name                                                              Type     Name              Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------
+CLOCKS_AND_RESETS_inst_0.INIT_MONITOR_0.INIT_MONITOR_0.I_INIT     INIT     UIC_INIT_DONE     Out     0.000     0.000 f     -         
+DEVICE_INIT_DONE                                                  Net      -                 -       0.139     -           1         
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.un1_D            CFG3     B                 In      -         0.139 f     -         
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.un1_D            CFG3     Y                 Out     0.091     0.231 f     -         
+un1_INTERNAL_RST_arst_i                                           Net      -                 -       1.276     -           32        
+CLOCKS_AND_RESETS_inst_0.FIC_0_RESET.CORERESET_0.dff_0            SLE      ALn               In      -         1.506 f     -         
+=====================================================================================================================================
+Total path delay (propagation time + setup) of 1.529 is 0.115(7.5%) logic and 1.415(92.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:09s; Memory used current: 321MB peak: 321MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:09s; Memory used current: 321MB peak: 321MB)
+
+---------------------------------------
+Resource Usage Report for my_custom_cape 
+
+Mapping to part: mpfs025tfcvg484std
+Cell usage:
+AND2            1 use
+AND4            1 use
+CLKINT          6 uses
+INIT            1 use
+INV             2 uses
+MSS             1 use
+OSC_RC160MHZ    1 use
+PLL             2 uses
+CFG1           9 uses
+CFG2           360 uses
+CFG3           723 uses
+CFG4           1090 uses
+
+Carry cells:
+ARI1            23 uses - used for arithmetic functions
+ARI1            702 uses - used for Wide-Mux implementation
+Total ARI1      725 uses
+
+
+Sequential Cells: 
+SLE            3030 uses
+
+DSP Blocks:    0 of 68 (0%)
+
+I/O ports: 179
+I/O primitives: 169
+BIBUF          121 uses
+BIBUF_DIFF     4 uses
+INBUF          10 uses
+INBUF_DIFF     3 uses
+OUTBUF         28 uses
+OUTBUF_DIFF    3 uses
+
+
+Global Clock Buffers: 6
+
+Total LUTs:    2907
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  3030 + 0 + 0 + 0 = 3030;
+Total number of LUTs after P&R:  2907 + 0 + 0 + 0 = 2907;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:09s; Memory used current: 321MB peak: 321MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:09s cputime
+# Wed Jan 31 17:00:58 2024
+
+###########################################################]

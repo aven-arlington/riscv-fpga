@@ -1,0 +1,52 @@
+Resource Usage Report for my_custom_cape 
+
+Mapping to part: mpfs025tfcvg484std
+Cell usage:
+AND2            1 use
+AND4            1 use
+CLKINT          6 uses
+INIT            1 use
+INV             2 uses
+MSS             1 use
+OSC_RC160MHZ    1 use
+PLL             2 uses
+CFG1           9 uses
+CFG2           360 uses
+CFG3           723 uses
+CFG4           1090 uses
+
+Carry cells:
+ARI1            23 uses - used for arithmetic functions
+ARI1            702 uses - used for Wide-Mux implementation
+Total ARI1      725 uses
+
+
+Sequential Cells: 
+SLE            3030 uses
+
+DSP Blocks:    0 of 68 (0%)
+
+I/O ports: 179
+I/O primitives: 169
+BIBUF          121 uses
+BIBUF_DIFF     4 uses
+INBUF          10 uses
+INBUF_DIFF     3 uses
+OUTBUF         28 uses
+OUTBUF_DIFF    3 uses
+
+
+Global Clock Buffers: 6
+
+Total LUTs:    2907
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  3030 + 0 + 0 + 0 = 3030;
+Total number of LUTs after P&R:  2907 + 0 + 0 + 0 = 2907;
+

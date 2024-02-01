@@ -1,0 +1,8 @@
+/home/aven/microchip/SynplifyPro/bin/syn_nfilter  -link  -top  my_custom_cape  -multisrs  /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/synwork/my_custom_cape_comp.srs  -osyn  /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/synwork/my_custom_cape_mult.srs  -log  /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/synlog/my_custom_cape_multi_srs_gen.srr 
+relcom:../../../../../microchip/SynplifyPro/bin/syn_nfilter -link -top my_custom_cape -multisrs ../synwork/my_custom_cape_comp.srs -osyn ../synwork/my_custom_cape_mult.srs -log ../synlog/my_custom_cape_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:../synwork/my_custom_cape_comp.srs|io:i|time:1706749248|size:312603|exec:0|csum:3241778A76D221E34D86C3B329A269F6
+file:../synwork/my_custom_cape_mult.srs|io:o|time:1706749249|size:19308|exec:0|csum:
+file:../synlog/my_custom_cape_multi_srs_gen.srr|io:o|time:1706749249|size:1131|exec:0|csum:
+file:../../../../../microchip/SynplifyPro/linux_a_64/syn_nfilter|io:i|time:1691490549|size:14188272|exec:1|csum:ED57C987B3F97AE52DA817307847C2BC
+file:../../../../../microchip/SynplifyPro/bin/syn_nfilter|io:i|time:1691490531|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

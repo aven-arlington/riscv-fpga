@@ -1,0 +1,172 @@
+Compile Report
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 SP1 (Version 2023.2.0.10)
+Date: Wed Jan 31 17:01:02 2024
+
+Device Selection
++------------------------+--------------+
+| Family                 | PolarFireSoC |
+| Device                 | MPFS025T     |
+| Package                | FCVG484      |
+| Speed Grade            | STD          |
+| Core Voltage           | 1.0V         |
+| Part Range             | EXT          |
+| Default I/O technology | LVCMOS 1.8V  |
++------------------------+--------------+
+
+Source Files
++---------+------------------------------------------------------------------------+
+| Topcell | my_custom_cape                                                         |
+| Format  | Verilog                                                                |
+| Source  | /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/my_custom_cape.vm |
++---------+------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+----+
+| Limit the number of high fanout nets to display to | 10 |
++----------------------------------------------------+----+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 2903 | 22956 | 12.65      |
+| DFF                       | 3030 | 22956 | 13.20      |
+| I/O Register              | 0    | 324   | 0.00       |
+| User I/O                  | 75   | 108   | 69.44      |
+| -- Single-ended I/O       | 75   | 108   | 69.44      |
+| -- Differential I/O Pairs | 0    | 54    | 0.00       |
+| uSRAM                     | 0    | 204   | 0.00       |
+| LSRAM                     | 0    | 84    | 0.00       |
+| Math                      | 0    | 68    | 0.00       |
+| H-Chip Global             | 6    | 24    | 25.00      |
+| PLL                       | 2    | 8     | 25.00      |
+| DLL                       | 0    | 8     | 0.00       |
+| CRN_INT                   | 2    | 24    | 8.33       |
+| INIT                      | 1    | 1     | 100.00     |
+| OSC_RC160MHZ              | 1    | 1     | 100.00     |
+| Transceiver Lanes         | 0    | 4     | 0.00       |
+| Transceiver PCIe          | 0    | 2     | 0.00       |
+| ICB_CLKINT                | 6    | 44    | 13.64      |
+| MSS                       | 1    | 1     | 100.00     |
+| MSS I/O                   | 104  | 136   | 76.47      |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++-----------------------+------+------+
+| Type                  | 4LUT | DFF  |
++-----------------------+------+------+
+| Fabric Logic          | 2903 | 3030 |
+| uSRAM Interface Logic | 0    | 0    |
+| LSRAM Interface Logic | 0    | 0    |
+| Math Interface Logic  | 0    | 0    |
+| Total Used            | 2903 | 3030 |
++-----------------------+------+------+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 23     | 1    |
+| Total  | 1    |
++--------+------+
+
+Detailed 4LUT Groups Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 301  |
+| 10     | 10   |
+| Total  | 311  |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 2            | 0           | 0               |
+| Output I/O                    | 6            | 0           | 0               |
+| Bidirectional I/O             | 67           | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+Nets assigned to chip global resources
++--------+---------+-----------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                |
++--------+---------+-----------------------------------------------------------------------------------------------------+
+| 3015   | INT_NET | Net   : CLOCKS_AND_RESETS_FIC_3_PCLK                                                                |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/clkint_12/U0_RGB1                      |
+|        |         | Source: NETLIST                                                                                     |
+| 17     | INT_NET | Net   : CLOCKS_AND_RESETS_FIC_0_ACLK                                                                |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/clkint_0/U0_RGB1                       |
+|        |         | Source: NETLIST                                                                                     |
+| 2      | INT_NET | Net   : CLOCKS_AND_RESETS_inst_0/RCOSC_160MHZ_GL                                                    |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/OSCILLATOR_160MHz_inst_0/OSCILLATOR_160MHz_0/I_OSC_160_INT/U0_RGB1 |
+|        |         | Source: NETLIST                                                                                     |
+| 1      | INT_NET | Net   : ADC_MCLK_c                                                                                  |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/PF_CCC_ADC_0/PF_CCC_ADC_0/clkint_0/U0_RGB1                         |
+|        |         | Source: NETLIST                                                                                     |
+| 1      | INT_NET | Net   : CLOCKS_AND_RESETS_FIC_2_ACLK                                                                |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/clkint_8/U0_RGB1                       |
+|        |         | Source: NETLIST                                                                                     |
+| 1      | INT_NET | Net   : CLOCKS_AND_RESETS_FIC_1_ACLK                                                                |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/clkint_4/U0_RGB1                       |
+|        |         | Source: NETLIST                                                                                     |
++--------+---------+-----------------------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                 |
++--------+---------+------------------------------------------------------------------------------------------------------+
+| 844    | INT_NET | Net   : CLOCKS_AND_RESETS_inst_0_FIC_3_RESET_0_CORERESET_0_dff                                       |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/FIC_3_RESET_0/CORERESET_0/dff_15                                    |
+| 570    | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_inst_0/IHC_SUBSYSTEM_0/CHANNEL_E51_TO_U54_1_amp_miv_ihcc_ctrl_A_SEL[1]   |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/IHC_SUBSYSTEM_0/CHANNEL_E51_TO_U54_1/amp_miv_ihcc_ctrl/A_SEL_Z[1] |
+| 314    | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_inst_0/IHC_SUBSYSTEM_0/CHANNEL_E51_TO_U54_1_amp_miv_ihcc_ctrl_A_SEL[0]   |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/IHC_SUBSYSTEM_0/CHANNEL_E51_TO_U54_1/amp_miv_ihcc_ctrl/A_SEL_Z[0] |
+| 300    | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_inst_0/APB_ARBITER_0_APB_MASTER_high_PADDR[11]                           |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/PF_SOC_MSS_inst_0/I_MSS                                           |
+| 247    | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_inst_0/APB_ARBITER_0_APB_MASTER_high_PADDR[10]                           |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/PF_SOC_MSS_inst_0/I_MSS                                           |
+| 137    | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_inst_0/BVF_RISCV_SUBSYSTEM_CAPE_APB_MTARGET_PADDR[5]                     |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/PF_SOC_MSS_inst_0/I_MSS                                           |
+| 83     | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_inst_0/APB_ARBITER_0_APB_MASTER_high_PADDR[9]                            |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/PF_SOC_MSS_inst_0/I_MSS                                           |
+| 82     | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_CAPE_APB_MTARGET_PWDATA[4]                                               |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/PF_SOC_MSS_inst_0/I_MSS                                           |
+| 82     | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_CAPE_APB_MTARGET_PWDATA[3]                                               |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/PF_SOC_MSS_inst_0/I_MSS                                           |
+| 82     | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_CAPE_APB_MTARGET_PWDATA[1]                                               |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/PF_SOC_MSS_inst_0/I_MSS                                           |
++--------+---------+------------------------------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                 |
++--------+---------+------------------------------------------------------------------------------------------------------+
+| 844    | INT_NET | Net   : CLOCKS_AND_RESETS_inst_0_FIC_3_RESET_0_CORERESET_0_dff                                       |
+|        |         | Driver: CLOCKS_AND_RESETS_inst_0/FIC_3_RESET_0/CORERESET_0/dff_15                                    |
+| 570    | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_inst_0/IHC_SUBSYSTEM_0/CHANNEL_E51_TO_U54_1_amp_miv_ihcc_ctrl_A_SEL[1]   |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/IHC_SUBSYSTEM_0/CHANNEL_E51_TO_U54_1/amp_miv_ihcc_ctrl/A_SEL_Z[1] |
+| 314    | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_inst_0/IHC_SUBSYSTEM_0/CHANNEL_E51_TO_U54_1_amp_miv_ihcc_ctrl_A_SEL[0]   |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/IHC_SUBSYSTEM_0/CHANNEL_E51_TO_U54_1/amp_miv_ihcc_ctrl/A_SEL_Z[0] |
+| 300    | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_inst_0/APB_ARBITER_0_APB_MASTER_high_PADDR[11]                           |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/PF_SOC_MSS_inst_0/I_MSS                                           |
+| 247    | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_inst_0/APB_ARBITER_0_APB_MASTER_high_PADDR[10]                           |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/PF_SOC_MSS_inst_0/I_MSS                                           |
+| 137    | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_inst_0/BVF_RISCV_SUBSYSTEM_CAPE_APB_MTARGET_PADDR[5]                     |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/PF_SOC_MSS_inst_0/I_MSS                                           |
+| 83     | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_inst_0/APB_ARBITER_0_APB_MASTER_high_PADDR[9]                            |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/PF_SOC_MSS_inst_0/I_MSS                                           |
+| 82     | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_CAPE_APB_MTARGET_PWDATA[4]                                               |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/PF_SOC_MSS_inst_0/I_MSS                                           |
+| 82     | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_CAPE_APB_MTARGET_PWDATA[3]                                               |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/PF_SOC_MSS_inst_0/I_MSS                                           |
+| 82     | INT_NET | Net   : BVF_RISCV_SUBSYSTEM_CAPE_APB_MTARGET_PWDATA[1]                                               |
+|        |         | Driver: BVF_RISCV_SUBSYSTEM_inst_0/PF_SOC_MSS_inst_0/I_MSS                                           |
++--------+---------+------------------------------------------------------------------------------------------------------+
+

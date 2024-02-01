@@ -1,0 +1,1 @@
+-link -encrypt -top my_custom_cape -osyn /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/synwork/my_custom_cape_comp.srs /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/synwork/layer0.srs  -jobname linker  

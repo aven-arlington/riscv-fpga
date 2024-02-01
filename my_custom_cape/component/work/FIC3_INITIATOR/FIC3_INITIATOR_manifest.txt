@@ -1,0 +1,29 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 SP1 (Version 2023.2.0.10)
+
+Date      :  Wed Jan 31 16:31:51 2024
+Project   :  /home/aven/repos/riscv-fpga/my_custom_cape
+Component :  FIC3_INITIATOR
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/work/FIC3_INITIATOR/FIC3_INITIATOR.v
+
+Stimulus files for all Simulation tools:
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/wave_user.do
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec_compile.tcl
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.exe
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.lin
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/coreapb3_usertb_master.bfm
+
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/coreparameters.v
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_main.v
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apb.v
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/amba_bfm/bfm_apbslave.v
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/test/user/testbench.v
+

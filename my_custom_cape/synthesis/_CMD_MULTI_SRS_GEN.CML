@@ -1,0 +1,1 @@
+ -link  -top  my_custom_cape  -multisrs  /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/synwork/my_custom_cape_comp.srs  -osyn  /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/synwork/my_custom_cape_mult.srs  -log  /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/synlog/my_custom_cape_multi_srs_gen.srr 

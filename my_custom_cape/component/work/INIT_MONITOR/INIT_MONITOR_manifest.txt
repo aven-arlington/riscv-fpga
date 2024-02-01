@@ -1,0 +1,12 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 SP1 (Version 2023.2.0.10)
+
+Date      :  Wed Jan 31 16:31:47 2024
+Project   :  /home/aven/repos/riscv-fpga/my_custom_cape
+Component :  INIT_MONITOR
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR.v
+

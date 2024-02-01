@@ -1,0 +1,125 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N|stack limit increased to max
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":187:7:187:10|Synthesizing module AND4 in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/apb_arbiter.v":43:7:43:17|Synthesizing module APB_ARBITER in library work.
+@N: CG775 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":31:7:31:14|Component CoreAPB3 not found in library "work" or "__hyper__lib__", but found in library COREAPB3_LIB
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/FIC3_INITIATOR/FIC3_INITIATOR.v":57:7:57:20|Synthesizing module FIC3_INITIATOR in library work.
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":333:7:333:11|Synthesizing module BIBUF in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/apb_arbiter.v":43:7:43:17|Synthesizing module APB_ARBITER in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_irqs.v":43:7:43:19|Synthesizing module miv_ihcc_irqs in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_mem.v":43:7:43:18|Synthesizing module miv_ihcc_mem in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_mem.v":43:7:43:18|Synthesizing module miv_ihcc_mem in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_ctrl.v":43:7:43:19|Synthesizing module miv_ihcc_ctrl in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc.v":43:7:43:14|Synthesizing module MIV_IHCC in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcia.v":43:7:43:15|Synthesizing module MIV_IHCIA in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/IHC_APB/IHC_APB.v":57:7:57:13|Synthesizing module IHC_APB in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/IHC_SUBSYSTEM/IHC_SUBSYSTEM.v":9:7:9:19|Synthesizing module IHC_SUBSYSTEM in library work.
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":287:7:287:12|Synthesizing module OUTBUF in library work.
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":264:7:264:11|Synthesizing module INBUF in library work.
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":223:7:223:9|Synthesizing module INV in library work.
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":357:7:357:16|Synthesizing module INBUF_DIFF in library work.
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":403:7:403:17|Synthesizing module OUTBUF_DIFF in library work.
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":449:7:449:16|Synthesizing module BIBUF_DIFF in library work.
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":500:7:500:9|Synthesizing module GND in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_SOC_MSS/MSS_NOBYP_NOBYP_NOBYP_BYP_BYP_syn_comps.v":5:7:5:9|Synthesizing module MSS in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_SOC_MSS/PF_SOC_MSS.v":5:7:5:16|Synthesizing module PF_SOC_MSS in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/BVF_RISCV_SUBSYSTEM/BVF_RISCV_SUBSYSTEM.v":9:7:9:25|Synthesizing module BVF_RISCV_SUBSYSTEM in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/apb_ctrl_status.v":2:7:2:21|Synthesizing module apb_ctrl_status in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/P8_IOPADS.v":9:7:9:15|Synthesizing module P8_IOPADS in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/P9_11_18_IOPADS.v":9:7:9:21|Synthesizing module P9_11_18_IOPADS in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/P9_21_31_IOPADS.v":9:7:9:21|Synthesizing module P9_21_31_IOPADS in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/P9_41_42_IOPADS.v":9:7:9:21|Synthesizing module P9_41_42_IOPADS in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/my_logic.v":2:7:2:12|Synthesizing module blinky in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/CAPE.v":9:7:9:10|Synthesizing module CAPE in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CORERESET/CORERESET_0/core/corereset_pf.v":21:7:21:40|Synthesizing module CORERESET_CORERESET_0_CORERESET_PF in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CORERESET/CORERESET.v":21:7:21:15|Synthesizing module CORERESET in library work.
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":121:7:121:10|Synthesizing module AND2 in library work.
+@N: CG364 :"/home/aven/microchip/SynplifyPro/lib/generic/acg5.v":489:7:489:12|Synthesizing module CLKINT in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":3694:7:3694:9|Synthesizing module PLL in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/FPGA_CCC_C0/FPGA_CCC_C0_0/FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC.v":5:7:5:38|Synthesizing module FPGA_CCC_C0_FPGA_CCC_C0_0_PF_CCC in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/FPGA_CCC_C0/FPGA_CCC_C0.v":264:7:264:17|Synthesizing module FPGA_CCC_C0 in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":1702:7:1702:10|Synthesizing module INIT in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR_0/INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR.v":5:7:5:52|Synthesizing module INIT_MONITOR_INIT_MONITOR_0_PFSOC_INIT_MONITOR in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/INIT_MONITOR/INIT_MONITOR.v":71:7:71:18|Synthesizing module INIT_MONITOR in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/polarfire_syn_comps.v":2199:7:2199:18|Synthesizing module OSC_RC160MHZ in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz_0/OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC.v":5:7:5:50|Synthesizing module OSCILLATOR_160MHz_OSCILLATOR_160MHz_0_PF_OSC in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/OSCILLATOR_160MHz/OSCILLATOR_160MHz.v":27:7:27:23|Synthesizing module OSCILLATOR_160MHz in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_CCC_ADC/PF_CCC_ADC_0/PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC.v":5:7:5:36|Synthesizing module PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_CCC_ADC/PF_CCC_ADC.v":264:7:264:16|Synthesizing module PF_CCC_ADC in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CLOCKS_AND_RESETS/CLOCKS_AND_RESETS.v":9:7:9:23|Synthesizing module CLOCKS_AND_RESETS in library work.
+@N: CG364 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/my_custom_cape/my_custom_cape.v":9:7:9:20|Synthesizing module my_custom_cape in library work.
+@N: CL135 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/CORERESET/CORERESET_0/core/corereset_pf.v":58:0:58:5|Found sequential shift dff with address depth of 16 words and data bit width of 1.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcia.v":46:28:46:34|Input penable is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_mem.v":45:32:45:37|Input resetn is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/miv_ihcc_mem.v":45:32:45:37|Input resetn is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":104:18:104:25|Input PRDATAS0 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":107:18:107:25|Input PRDATAS3 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":121:13:121:20|Input PREADYS0 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":124:13:124:20|Input PREADYS3 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":138:13:138:21|Input PSLVERRS0 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":141:13:141:21|Input PSLVERRS3 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":143:13:143:21|Input PSLVERRS5 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
+@N|Running in 64-bit mode
+

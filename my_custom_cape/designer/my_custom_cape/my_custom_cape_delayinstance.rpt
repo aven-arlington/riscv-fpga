@@ -1,0 +1,21 @@
+********************************************************************
+Delay Instance Report - Date: Wed Jan 31 17:01:51 2024
+Product: Designer
+Release: v2023.2 SP1
+Version: 2023.2.0.10
+Design Name: my_custom_cape
+Family: PolarFireSoC
+Die: MPFS025T
+Package: FCVG484
+********************************************************************
+
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 SP1 (Version 2023.2.0.10)
+
+
++-----------+-----------------------------------------------------------------------+-------------+-------------+-----------------+-----------+
+| Type      | Instance Name                                                         | Param Name  | Delay Value | PDC Option Name | Editable? |
++-----------+-----------------------------------------------------------------------+-------------+-------------+-----------------+-----------+
+| PLL_DELAY | CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0_DELAY | CDELAY0_SEL | 0           | DELAY           | No        |
+| PLL_DELAY | CLOCKS_AND_RESETS_inst_0/PF_CCC_ADC_0/PF_CCC_ADC_0/pll_inst_0_DELAY   | CDELAY0_SEL | 0           | DELAY           | No        |
++-----------+-----------------------------------------------------------------------+-------------+-------------+-----------------+-----------+
+

@@ -1,0 +1,44 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/IHC_SUBSYSTEM/IHC_SUBSYSTEM.v":9:7:9:19|Found compile point of type hard on View view:work.IHC_SUBSYSTEM(verilog) 
+**** Begin Compile Point : my_custom_cape ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/IHC_SUBSYSTEM/IHC_SUBSYSTEM.v":9:7:9:19|Found compile point of type hard on View view:work.IHC_SUBSYSTEM(verilog) 
+@N: MF105 |Performing bottom-up mapping of Top level view:work.my_custom_cape(verilog) 
+@N: MF106 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/my_custom_cape/my_custom_cape.v":9:7:9:20|Mapping Top level view:work.my_custom_cape(verilog) because 
+@N: MO231 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/my_logic.v":13:3:13:8|Found counter in view:work.CAPE(verilog) instance blinky_0.counter[22:0] 
+**** End Compile Point : my_custom_cape ****
+**** Begin Compile Point : IHC_SUBSYSTEM ****
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/IHC_SUBSYSTEM/IHC_SUBSYSTEM.v":9:7:9:19|Found compile point of type hard on View view:work.IHC_SUBSYSTEM(verilog) 
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.IHC_SUBSYSTEM(verilog) 
+@N: MF106 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/IHC_SUBSYSTEM/IHC_SUBSYSTEM.v":9:7:9:19|Mapping Compile point view:work.IHC_SUBSYSTEM(verilog) because 
+@N: BZ173 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z2_0(verilog)) mapped in logic.
+@N: BZ173 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z2_0(verilog)) mapped in logic.
+@N: MO106 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":267:2:267:5|Found ROM iPSELS_raw_5[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z2_0(verilog)) with 16 words by 16 bits.
+@N: BZ173 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z2_1(verilog)) mapped in logic.
+@N: BZ173 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":267:2:267:5|ROM iPSELS_raw_5[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z2_1(verilog)) mapped in logic.
+@N: MO106 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v":267:2:267:5|Found ROM iPSELS_raw_5[15:0] (in view: COREAPB3_LIB.CoreAPB3_Z2_1(verilog)) with 16 words by 16 bits.
+@N: MT615 |Found clock osc_rc160mhz with period 6.25ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT1 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT2 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3 with period 20.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+**** End Compile Point : IHC_SUBSYSTEM ****
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock osc_rc160mhz with period 6.25ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT0 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT1 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT2 with period 8.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/FPGA_CCC_C0_0/FPGA_CCC_C0_0/pll_inst_0/OUT3 with period 20.00ns 
+@N: MT615 |Found clock CLOCKS_AND_RESETS_inst_0/PF_CCC_ADC_0/PF_CCC_ADC_0/pll_inst_0/OUT0 with period 203.46ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

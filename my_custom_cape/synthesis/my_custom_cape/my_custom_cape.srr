@@ -1,0 +1,127 @@
+# Wed Jan 31 17:00:51 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: /home/aven/microchip/SynplifyPro
+OS: Ubuntu 22.04.3 LTS
+Hostname: aven-22-04
+max virtual memory: unlimited (bytes)
+max user processes: 255136
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202209actsp2, Build 145R, Built Jun 27 2023 10:02:01, @4799148
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 231MB peak: 231MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 243MB peak: 243MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 243MB peak: 243MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 243MB peak: 243MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 243MB peak: 243MB)
+
+
+@N: MF104 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/IHC_SUBSYSTEM/IHC_SUBSYSTEM.v":9:7:9:19|Found compile point of type hard on View view:work.IHC_SUBSYSTEM(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Top level view:work.my_custom_cape(verilog) 
+
+Start loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 287MB peak: 287MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 296MB peak: 296MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/my_custom_cape/my_custom_cape.v":9:7:9:20|Mapping Top level view:work.my_custom_cape(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 296MB peak: 296MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 296MB peak: 296MB)
+
+@N: MO231 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/my_logic.v":13:3:13:8|Found counter in view:work.CAPE(verilog) instance blinky_0.counter[22:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 296MB peak: 296MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 296MB peak: 296MB)
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 296MB peak: 296MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 296MB peak: 296MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 296MB peak: 296MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 296MB peak: 296MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 296MB peak: 296MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 296MB peak: 296MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		     7.54ns		 242 /       152
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 296MB peak: 296MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 296MB peak: 296MB)
+
+
+End compile point sub-process log
+
+Writing compile point status file /home/aven/repos/riscv-fpga/my_custom_cape/synthesis/my_custom_cape/cpprop
+
+Summary of Compile Points :
+*************************** 
+Name               Status     Reason     
+-----------------------------------------
+my_custom_cape     Mapped     No database
+=========================================
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Wed Jan 31 17:00:54 2024
+
+###########################################################]

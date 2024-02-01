@@ -1,0 +1,81 @@
+Synplify Pro (R) Job Log
+Date: 17:00:58    31-Jan-2024
+Install Directory: /home/aven/microchip/SynplifyPro
+
+JobFlow: synthesis
+   Run Start Time: 17:00:47
+   Runtime: 11s
+   Executable Run Time: 10 - (Sum of all child executables)
+   Current Working Directory: /home/aven/repos/riscv-fpga/my_custom_cape/synthesis
+
+   JobFlow: synthesis
+      Run Start Time: 17:00:47
+      Runtime: 11s
+      Executable Run Time: 10 - (Sum of all child executables)
+
+      JobFlow: compile
+         Run Start Time: 17:00:47
+         Runtime: 04s
+         Executable Run Time: 3 - (Sum of all child executables)
+
+         JobFlow: compile_flow
+            Run Start Time: 17:00:47
+            Runtime: 02s
+            Executable Run Time: 1 - (Sum of all child executables)
+
+            Job: compiler
+               executable: bin/c_hdl
+               Run Directory: /home/aven/repos/riscv-fpga/my_custom_cape/synthesis
+               Run State: complete
+               Return Code: 0
+               Has Errors: no
+               Run Start Time: 17:00:47
+               Run Time: 02s
+               Executable Run Time: 1 - (Executable run time excluding UI processing)
+               Memory Usage: 2.896 MB
+               Up-to-date (run skipped): no
+               CDPL: off
+
+            Job: multi_srs_gen
+               executable: bin/syn_nfilter
+               Run Directory: /home/aven/repos/riscv-fpga/my_custom_cape/synthesis
+               Run State: complete
+               Return Code: 0
+               Has Errors: no
+               Run Start Time: 17:00:49
+               Run Time: 00s
+               Executable Run Time: 0 - (Executable run time excluding UI processing)
+               Memory Usage: 2.896 MB
+               Up-to-date (run skipped): no
+               CDPL: off
+
+         Job: premap
+            executable: bin/m_generic
+            Run Directory: /home/aven/repos/riscv-fpga/my_custom_cape/synthesis
+            Run State: complete
+            Return Code: 1
+            Has Errors: no
+            Run Start Time: 17:00:49
+            Run Time: 02s
+            Executable Run Time: 2 - (Executable run time excluding UI processing)
+            Memory Usage: 2.896 MB
+            Up-to-date (run skipped): no
+            CDPL: off
+
+      JobFlow: map
+         Run Start Time: 17:00:51
+         Runtime: 07s
+         Executable Run Time: 7 - (Sum of all child executables)
+
+         Job: fpga_mapper
+            executable: bin/m_generic
+            Run Directory: /home/aven/repos/riscv-fpga/my_custom_cape/synthesis
+            Run State: complete
+            Return Code: 1
+            Has Errors: no
+            Run Start Time: 17:00:51
+            Run Time: 07s
+            Executable Run Time: 7 - (Executable run time excluding UI processing)
+            Memory Usage: 2.896 MB
+            Up-to-date (run skipped): no
+            CDPL: off

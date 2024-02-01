@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>my_custom_cape</design>
+	<target_verilog>/home/aven/repos/riscv-fpga/my_custom_cape/synthesis/my_custom_cape.vm</target_verilog>
+</SynplifyOutput>

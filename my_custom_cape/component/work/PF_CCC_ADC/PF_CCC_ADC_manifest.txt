@@ -1,0 +1,14 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 SP1 (Version 2023.2.0.10)
+
+Date      :  Wed Jan 31 16:31:52 2024
+Project   :  /home/aven/repos/riscv-fpga/my_custom_cape
+Component :  PF_CCC_ADC
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_CCC_ADC/PF_CCC_ADC_0/PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC.v
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_CCC_ADC/PF_CCC_ADC.v
+
+Constraint files:
+    /home/aven/repos/riscv-fpga/my_custom_cape/component/work/PF_CCC_ADC/PF_CCC_ADC_0/PF_CCC_ADC_PF_CCC_ADC_0_PF_CCC.sdc

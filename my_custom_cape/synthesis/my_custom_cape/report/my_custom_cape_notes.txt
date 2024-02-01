@@ -1,0 +1,7 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF104 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/IHC_SUBSYSTEM/IHC_SUBSYSTEM.v":9:7:9:19|Found compile point of type hard on View view:work.IHC_SUBSYSTEM(verilog) 
+@N: MF105 |Performing bottom-up mapping of Top level view:work.my_custom_cape(verilog) 
+@N: MF106 :"/home/aven/repos/riscv-fpga/my_custom_cape/component/work/my_custom_cape/my_custom_cape.v":9:7:9:20|Mapping Top level view:work.my_custom_cape(verilog) because 
+@N: MO231 :"/home/aven/repos/riscv-fpga/my_custom_cape/hdl/my_logic.v":13:3:13:8|Found counter in view:work.CAPE(verilog) instance blinky_0.counter[22:0] 
